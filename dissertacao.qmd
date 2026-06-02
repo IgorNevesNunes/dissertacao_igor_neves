@@ -15,10 +15,10 @@ format:
           \newcommand{\InstituicaoDissertacao}{Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais}
           \newcommand{\CampusDissertacao}{Campus Formiga}
           \newcommand{\ProgramaDissertacao}{Mestrado Profissional em Administração}
-          \newcommand{\NomeAutorDissertacao}{Nome Completo do Discente}
+          \newcommand{\NomeAutorDissertacao}{Igor Neves Nunes}
           % Se a dissertacao tiver subtitulo, preencha o campo abaixo.
           % Se nao tiver, deixe o campo vazio.
-          \newcommand{\TituloDissertacao}{Título da Dissertação}
+          \newcommand{\TituloDissertacao}{\textit{Pay for luck} no mercado brasileiro: efeitos da pandemia de Covid-19 e o papel da governança}
           \newcommand{\SubtituloDissertacao}{}
           \newcommand{\CidadeDissertacao}{Formiga}
           \newcommand{\EstadoDissertacao}{MG}
@@ -26,7 +26,7 @@ format:
           % Caso padrao: orientador, coorientador, avaliador interno e avaliador externo.
           % Se nao houver coorientador(a), deixe os dois campos abaixo vazios.
           \newcommand{\OrientadorDissertacao}{Prof. Dr. Washington Santos da Silva}
-          \newcommand{\CoorientadorDissertacao}{Prof. Dr. Nome do Coorientador}
+          \newcommand{\CoorientadorDissertacao}{Prof. Dr. Lelis Pedro de Andrade}
           \newcommand{\CoorientadorInstituicaoDissertacao}{IFMG}
           % Campo institucional fixo do curso.
           \newcommand{\LinhaPesquisaDissertacao}{Finanças Corporativas e Investimentos}
@@ -35,15 +35,15 @@ format:
           \newcommand{\TextoApresentacaoDissertacao}{Dissertação apresentada ao Programa de Pós-Graduação em Administração do Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais (IFMG) -- Campus Formiga, como requisito parcial para obtenção do título de \TituloObtidoDissertacao.}
           % Escreva a data da defesa por extenso, por exemplo: 15 de março de 2026.
           \newcommand{\DataAprovacaoDissertacao}{dia de mês de ano}
-          \newcommand{\PalavrasChaveDissertacao}{palavra-chave 1; palavra-chave 2; palavra-chave 3.}
-          \newcommand{\KeywordsDissertation}{keyword 1; keyword 2; keyword 3.}
+          \newcommand{\PalavrasChaveDissertacao}{Remuneração; desempenho; Covid-19; governança; \textit{pay for luck}.}
+          \newcommand{\KeywordsDissertation}{Compensation; Performance; Covid-19; governance; \textit{pay for luck}.}
           \newcommand{\MembroBancaUmNome}{\OrientadorDissertacao}
           \newcommand{\MembroBancaUmFuncao}{Orientador}
           \newcommand{\MembroBancaUmInstituicao}{IFMG}
-          \newcommand{\MembroBancaDoisNome}{Prof. Dr. Nome do Examinador Interno}
+          \newcommand{\MembroBancaDoisNome}{Prof. Dr. Bruno Cesar de Melo Moreira}
           \newcommand{\MembroBancaDoisFuncao}{Avaliador interno}
           \newcommand{\MembroBancaDoisInstituicao}{IFMG}
-          \newcommand{\MembroBancaTresNome}{Prof. Dr. Nome do Examinador Externo}
+          \newcommand{\MembroBancaTresNome}{Prof. Dr. Robert Aldo Iquiapaza Coaguila}
           \newcommand{\MembroBancaTresFuncao}{Avaliador externo}
           \newcommand{\MembroBancaTresInstituicao}{UFMG}
           \newcommand{\MembroBancaQuatroNome}{}
@@ -165,16 +165,67 @@ inicial e a recoloque apenas quando o texto estiver mais avançado.
 
 \begin{resumodissertacao}
 
-Apresente o problema de pesquisa, o objetivo principal, a abordagem
-metodológica, os resultados centrais e a principal contribuição da
-dissertação em um único texto corrido.
+A pandemia de Covid-19 afetou setores econômicos de maneira heterogênea, criando
+um contexto único para investigar a remuneração executiva no Brasil. Fundamentado
+nas teorias da agência e poder gerencial, esta pesquisa analisa como o desempenho
+idiossincrático das empresas e fatores externos influenciaram a remuneração
+dos executivos brasileiros e investiga se houve ocorrência de \textit{pay for luck}.
+O conceito de \textit{pay for luck} refere-se à remuneração desvinculada da performance
+individual da empresa, sendo mais pronunciado em ambientes de governança fraca, 
+onde executivos podem extrair riqueza através de pagamentos relacionados a fatores
+alheios às suas decisões. O objetivo da pesquisa é analisar a influência do desempenho
+idiossincrático e de fatores externos, medidos por retorno contábil e retorno
+acionário, na remuneração executiva durante a pandemia
+de Covid-19, investigando como mecanismos de governança moderam tal relação. A 
+metodologia empregada utiliza o Método dos Momentos Generalizados (GMM-Sys), 
+adequado para lidar com a endogeneidade presumida na relação entre remuneração
+e desempenho, em uma análise no período de 2018 a 2024. 
+Além disso, a fim de conferir robustez à pesquisa, são estimados
+modelos pelos métodos dos Mínimos Quadrados Ordinários (MQO) e Efeitos Fixos (EF),
+para identificar potenciais vieses de modelos estáticos. Os resultados apontam
+que não houve relação do desempenho medido pelo retorno acionário com a remuneração.
+Já o retorno contábil apresentou relação contrária à esperada: o desempenho externo,
+mais especificamente o desempenho setorial, reduziu a remuneração executiva;
+enquanto o desempenho contábil idiossincrático apresentou indícios de influência
+positiva sobre a remuneração. Tal resultado contradiz a hipótese de \textit{pay for luck}
+e vai de encontro ao que a literatura chama de \textit{pay for performance}. Além disso,
+resultados consistentes mostram que a remuneração dos executivos brasileiros no 
+período foi muito influenciada pelo tamanho das empresas e pela persistência dinâmica,
+ou seja, a remuneração em anos anteriores.
 
 \end{resumodissertacao}
 
 \begin{abstractdissertacao}
 
-Write a concise abstract in English with the research problem, objective,
-methods, main results, and contribution of the dissertation.
+The Covid-19 pandemic affected economic sectors heterogeneously, creating a 
+unique context for investigating executive compensation in Brazil. Grounded in 
+agency theory and managerial power theory, this study analyzes how firms’ 
+idiosyncratic performance and external factors influenced the compensation of 
+Brazilian executives and investigates whether \textit{pay for luck} occurred. 
+The concept of \textit{pay for luck} refers to compensation disconnected from 
+the firm’s individual performance, being more pronounced in weak governance 
+environments, where executives may extract wealth through compensation linked 
+to factors beyond their control. The objective of this research is to analyze 
+the influence of idiosyncratic 
+performance and external factors, measured by accounting returns and stock 
+returns, on executive compensation during the Covid-19 pandemic, while also 
+investigating how governance mechanisms moderate this relationship. The 
+methodology employs the System Generalized Method of Moments (System GMM), which
+is appropriate for addressing the presumed endogeneity in the relationship 
+between compensation and performance, in an analysis covering the period from 
+2018 to 2024. In addition, to ensure robustness, models estimated through 
+Ordinary Least Squares (OLS) and Fixed Effects (FE) methods were also employed 
+to identify potential biases associated with static models. The results indicate
+that performance measured by stock returns had no relationship with executive 
+compensation. In contrast, accounting returns showed a relationship opposite to 
+that expected: external performance, more specifically industry performance, 
+reduced executive compensation, while idiosyncratic accounting performance 
+showed evidence of a positive influence on compensation. This finding contradicts
+the \textit{pay for luck} hypothesis and aligns with what the literature refers 
+to as \textit{pay for performance}. Furthermore, consistent results demonstrate 
+that executive compensation in Brazil during the analyzed period was strongly 
+influenced by firm size and by dynamic persistence, that is, compensation in 
+previous years.
 
 \end{abstractdissertacao}
 
@@ -205,20 +256,1079 @@ Nas próximas linhas, você escreverá as seções da sua dissertação.
 
 # Introdução {#sec-introducao}
 
-Escreva aqui a introdução da dissertação.
+A remuneração executiva é um tema que ganha evidência em períodos de crise. 
+Os estudos de @Alves2021 e @Bedford2023 mencionam a influência da opinião 
+pública sobre decisões das empresas a respeito da remuneração dos CEO’s. 
+Isso se deve ao fato de que em períodos de crise várias partes são prejudicadas,
+como trabalhadores, acionistas, fornecedores e a sociedade em geral; como foi o 
+caso da crise do subprime em 2008, por exemplo. Nesse contexto os altos níveis 
+de remuneração de executivos estão sujeitos a serem alvo de críticas.
+
+Esse questionamento a princípio faz sentido, pois como demonstrado pelo 
+relatório de @Bivens2022, desde 1978, nos Estados Unidos a remuneração de 
+executivos vem crescendo de forma exuberante, se descolando da remuneração 
+média dos trabalhadores, saindo de uma proporção de 20 para 1 nos anos 60 e 
+chegando a 399 para um em 2021, em meio à pandemia de Covid-19. Essa diferença
+salarial atingiu sua máxima histórica em um contexto econômico que o @FMI2020 
+destaca como o pior desde a grande depressão em 1929. No Brasil, o contexto não
+é diferente. @Calejon2024 apontam uma ocorrência em que a remuneração executiva 
+média de uma empresa foi 4874 vezes maior que a média dos demais trabalhadores 
+da mesma empresa no período. 
+
+Um segundo ponto que cabe destacar, se refere à dissonância entre a remuneração 
+e o resultado empresarial. Uma remuneração alta por si só não deve indicar um
+problema a priori, mas a forma como ela é obtida deve ser investigada. 
+@Calejon2024 citam ainda um caso específico da empresa Natura, em que o CEO à 
+época recebeu remunerações crescentes entre 2020 e 2022, enquanto as ações da 
+empresa caíam em mais de 80%. Em 2022, ano do desligamento do mesmo, ele recebeu
+no acordo de rescisão cerca de 150 milhões de reais.
+
+Esse é um ponto a ser questionado a fim de aprofundar a discussão acerca da 
+remuneração executiva: verificar se ela é correspondente à performance. Nesse 
+contexto surge o conceito de *pay for luck*. @Bertrand2001 propõem que os CEO's 
+são remunerados por sorte, que consiste em influências do mercado sobre o 
+desempenho de uma empresa. Em seu proeminente trabalho, os autores encontraram 
+evidências de que esse fenômeno ocorre especialmente em ambientes onde a 
+governança é fraca. Eles chegaram a essa evidência avaliando como a remuneração 
+de executivos do setor petrolífero flutuava e era explicada pelas variações do 
+preço da *commoditie*, inclusive como respondia em períodos de crise.
+
+Períodos de crise podem enfraquecer a efetividade da governança e 
+consequentemente abrir oportunidades para fraudes, como por exemplo executivos 
+que manipulem indicadores devido à pressão por resultados [@Alshhadat2023]. 
+Para @Bebchuk2003, essas situações podem alterar a relação entre remuneração 
+e desempenho e proporcionar condições para que executivos sejam recompensados 
+ou punidos por condições sobre as quais eles não têm controle. Portanto, 
+a pandemia de Covid-19 oferece uma oportunidade ímpar para a realização de 
+estudos sobre essas relações e a verificação de como as variáveis se interagem 
+em um período de choque econômico.
+
+Nesse contexto, em um cenário de queda da economia global como ocorreu, com 
+evidências de que a remuneração executiva continua a ser questionada por ser 
+considerada elevada em diversos ambientes, abre-se espaço para estudos de 
+fatores que influenciaram a remuneração executiva nos últimos anos e os efeitos 
+da pandemia sobre essa relação. Tais pesquisas buscam explicar a remuneração 
+executiva com base em indicadores de desempenho e de governança, 
+como @Alves2021, @Bedford2023, @Ye2023, @Muzata2023, dentre outros.
+
+Um ponto em comum sobre esses trabalhos que pode ser questionado consiste 
+na relação de indicadores de desempenho utilizados. Pesquisas nessa área 
+têm utilizado indicadores de desempenho como ROA, ROE, retorno de ações, 
+receita, *Market-to-Book*, *Q* de Tobin, dentre outros. Mas, como exposto acerca
+da provocação feita por @Bertrand2001, de que os executivos são pagos por sorte,
+essas medidas são absolutas e englobam influências do mercado, tornando difícil
+a compreensão de que essas remunerações estão sendo pagas de forma justa com 
+base no desempenho.
+
+Estudos que avaliem o desempenho relativo e sua influência sobre a remuneração 
+no contexto da pandemia são escassos na literatura internacional e brasileira. 
+Dessa forma, buscando avançar sobre esse enfoque na literatura de governança, 
+propõe-se a seguinte questão de pesquisa: como medidas de desempenho relativo 
+influenciam a remuneração de executivos das empresas brasileiras, e como a 
+pandemia de Covid-19 e determinados mecanismos de governança corporativa afetam 
+essa relação?
+
+Nesse contexto, a presente pesquisa visa responder a essa pergunta analisando 
+como medidas relativas de
+desempenho empresarial influenciam na composição da remuneração dos executivos 
+das empresas da B3, verificando como essa relação ocorreu antes, durante e após 
+o período da pandemia. Além disso, serão utilizadas variáveis de governança e 
+outras de controle importantes para mediar tal relação, conforme preconizado 
+pela literatura. No decorrer do estudo serão apresentados os objetivos de forma
+mais detalhada, a fim de delinear o estudo
+
+A fim de esclarecer como essa questão será investigada, pontua-se de forma 
+superficial sobre as variáveis relativas de desempenho que serão utilizadas, 
+para melhor entendimento. A pesquisa utiliza um enfoque proposto por 
+@Bertrand2001 e posteriormente adaptado por @Garvey2006 para extrair 
+o desempenho relativo do retorno das ações, isolado dos efeitos do mercado. A 
+fim de conferir robustez, propõe-se a utilização de um segundo indicador, que 
+mede o retorno operacional individual, isolado de efeitos de setor e de mercado,
+proposto por @Jackson2018.
+
+Os trabalhos de @Bertrand2001 e @Garvey2006 demonstraram a existência de 
+*pay for luck* em suas amostras, e uma maior manifestação desse sintoma em 
+contextos onde a governança é fraca. Dessa forma, este trabalho espera encontrar
+evidências da existência de *pay for luck* no mercado brasileiro, com a 
+expectativa de que a existência de mecanismos de governança mitiguem essa 
+manifestação. Devido à ausência de estudos que analisem o *pay for luck* no 
+contexto da pandemia, o efeito da Covid-19 sobre essa relação é ainda incerto.
+
+Além das contribuições empíricas e teóricas advindas da análise proposta, o 
+estudo também busca gerar um produto técnico, com a criação e disponibilização 
+da base de dados estruturada de remuneração que será usada na pesquisa, para 
+utilização em estudos posteriores.
+
+Além da presente seção, o trabalho é composto ainda pela Revisão de Literatura (-@sec-revisao),
+seção de Metodologia (-@sec-metodologia), seção de Resultados e Discussão (-@sec-resultados)
+e Conclusão (-@sec-conclusao).
 
 
+# Revisão de Literatura {#sec-revisao}
+
+A presente seção traz uma revisão da literatura acerca de trabalhos que 
+analisaram a relação entre desempenho e remuneração no contexto da pandemia, 
+além da fundamentação teórica que norteia a realização da pesquisa. A seção 
+-@sec-procedimentos documenta o procedimento da busca sistemática realizada 
+sobre o tema da pesquisa. A seção -@sec-agencia aborda uma explanação sobre 
+os aspectos teóricos da agência, do poder gerencial, do *pay for luck*. A seção -@sec-revisao1 
+apresenta trabalhos internacionais com foco na relação entre desempenho e remuneração; a seção -@sec-revisao2 aborda trabalhos com mais detalhes sobre os 
+mecanismos de governança; e a seção -@sec-revisao3 traz uma panorama sobre 
+trabalhos da literatura brasileira com o mesmo foco deste estudo.
+
+## Procedimentos de pesquisa {#sec-procedimentos}
+
+Essa seção visa demonstrar os procedimentos de busca adotados para procurar 
+pelos trabalhos de interesse com base no tema de pesquisa. Os termos de busca 
+utilizados foram: (*"executive compensation" OR "executive remuneration" OR 
+“executive pay” OR "CEO pay" OR “CEO compensation” OR “CEO remuneration”)  
+AND ("corporate governance")  AND ("firm performance" OR "financial performance")
+AND ("COVID-19" OR "pandemic"*). Os termos foram adaptados para se adequarem às 
+sintaxes de busca das bases utilizadas, sendo elas a *Web of Science*, 
+IDEAS/RePEc, Scopus e Google acadêmico. Os resultados obtidos foram os expostos 
+na tabela abaixo:
+
+```{r}
+#| label: tbl-revisao
+#| tbl-cap: "Bases de dados e número de artigos encontrados"
+#| echo: false
+#| warning: false
+
+library(kableExtra)
+library(dplyr)
+
+# Criando a tabela
+tabela_bases <- data.frame(
+  Bases = c("$Web$ $of$ $Science$", "IDEAS/RePEc", "Scopus", "Google acadêmico",
+            "Google acadêmico (em português)"),
+  Numeros = c(
+    "1", "0", "3", "8250", "98"
+  )
+)
+
+# Gerando a tabela com kableExtra
+tabela_bases %>%
+  kbl(
+    col.names = c("Base de dados", "Número de artigos encontrados"),
+    format = "latex",
+    escape = FALSE,
+    align = c("l", "l", "l"),
+    booktabs = FALSE,
+    longtable = TRUE
+  ) %>%
+  kable_styling(
+    font_size = 11,
+    full_width = FALSE,
+    latex_options = "basic"
+  ) %>%
+  column_spec(1, width = "7.5cm") %>%
+  column_spec(2, width = "7.5cm") %>%
+  row_spec(0, bold = TRUE)
+
+```
 
 
-# Revisão da Literatura {#sec-revisao}
+Os resultados obtidos pela busca demonstram uma escassez de trabalhos 
+relacionados a esse tema nas principais bases. O Google acadêmico, por ter um 
+mecanismo de busca menos estruturado, apresenta um número distoante de 
+resultados em relação às demais, e foi a principal fonte de trabalhos utilizada
+nessa revisão. Cabe ressaltar que o número de trabalhos dessa base foi 
+encontrado com a utilização das *strings* apontadas e com um filtro de trabalhos
+a partir de 2020. Devido à escassez de trabalhos nas principais bases, os termos
+em português foram utilizados apenas no Google acadêmico.
 
-Escreva aqui a seção de revisão da literatura. 
+Intuitivamente, é possível perceber que a disparidade no número de resultados 
+provenientes do Google acadêmico se dá pela fragilidade do seu mecanismo de 
+busca. Dessa forma, os trabalhos encontrados (tanto na língua inglesa quanto 
+portuguesa) foram ranqueados pela ordem de relevância disponibilizada pela 
+própria ferramenta, e foram selecionados pela adequação ao escopo deste 
+trabalho, com base na leitura de título, palavras-chave e resumo. Além disso, 
+foi utilizada a estratégia de referências *forward* e *backward* dos principais 
+trabalhos, a fim de acessar autores que foram citados e que citaram esses 
+trabalhos.
 
-Use subseções para organizar o conteúdo, caso necessário e desejável.
+## Fundamentação teórica {#sec-teoria}
 
-Caso necessário, é possível e desejável apresentar os conceitos ou 
-modelos teóricos relevantes nesta seção, ao invés de criar uma 
-seção para conter um referencial teórico. 
+### Teoria da Agência, poder gerencial e *pay for luck* {#sec-agencia}
+
+O foco sobre a remuneração executiva como tema de estudos tem grande iminência 
+com a teoria da agência. A teoria de @Jensen1976 propõe que a separação entre 
+propriedade e controle cria um *gap* de informações entre as duas partes 
+(principal e agente), e o gestor, sendo melhor informado e tendo interesses 
+próprios, tem a oportunidade de tomar decisões em seu benefício, em detrimento 
+de decisões que beneficiariam a empresa e seus acionistas.
+
+Nesse contexto, a remuneração é uma das formas pelas quais os acionistas tentam
+alinhar os interesses dos executivos aos seus próprios interesses. 
+Nessa concepção, a remuneração é uma garantia contratual que incentiva o gestor 
+a tomar as melhores decisões e, em conjunto com ações de monitoramento, 
+visa garantir o alinhamento de interesses entre as duas partes, com a finalidade
+de maximizar a riqueza dos acionistas [@Jensen1976].
+
+@Bognanno2018 argumenta que existem visões alternativas sobre a abordagem da 
+remuneração executiva. Segundo o autor, a principal concepção do excesso de 
+remuneração na prática é ocasionada pelo que é tratado na literatura como poder 
+gerencial. Proposta por @Bebchuk2003, essa abordagem argumenta que o CEO tem 
+capacidade para exercer influência sobre estruturas internas, inclusive no 
+conselho, consequentemente podendo exercer influência sobre sua remuneração.
+
+Paralelamente a isso, @Bebchuk2003 propõem o conceito de 
+*pay without performance*, argumentando que a remuneração executiva não 
+necessariamente está totalmente ligada ao desempenho profissional, mas que sofre
+influência de outros fatores e, ao contrário do que é proposto pela teoria da 
+agência, a remuneração executiva como forma de incentivo não necessariamente 
+mitiga os conflitos de interesse existentes entre proprietário e agente.
+
+Uma ideia semelhante à de @Bebchuk2003 foi proposta e testada anteriormente por
+@Bertrand2001: o *pay for luck*. A ideia por trás do conceito de *pay for luck*
+argumenta que os executivos podem ser recompensados por fatores fora do seu 
+controle que influenciam no sucesso da empresa, como altas nos preços de 
+*commodities*, variações cambiais e alta do panorama macroeconômico no geral, 
+de forma que o desempenho da empresa e a remuneração se descolem do desempenho 
+do próprio executivo. 
+
+@Bertrand2001 encontraram evidências empíricas dessa abordagem proposta. 
+Analisando empresas do setor de petróleo dos Estados Unidos, os resultados do 
+seu trabalho empírico apontaram que os executivos foram beneficiados pelos 
+movimentos de alta do mercado. Em períodos de queda, nem sempre os executivos 
+sofreram perdas salariais correspondentes. Os autores envidenciam ainda que 
+essas dissonâncias entre desempenho e pagamento são mais intensas em empresas 
+com governança fraca.
+
+Em complemento ao trabalho de @Bertrand2001, @Garvey2006 analisam empiricamente 
+se há assimetria entre "boa e má sorte" no *benchmarking* da remuneração dos
+executivos em relação a seus pares, ou seja, se os executivos são mais 
+beneficiados pelo mercado em períodos de alta do que punidos em períodos de 
+baixa. Os resultados apontam que sim, a sensibilidade da remuneração executiva 
+ao desempenho é mais pronunciada em períodos de alta do mercado do que em 
+períodos de baixa.
+
+Esse panorama teórico propõe uma alternativa à visão crua da agência, que 
+relaciona diretamente a remuneração ao desempenho. Trabalhos posteriores 
+consistentes demonstraram que a remuneração não necessariamente é sinal de 
+sucesso no atingimento dos objetivos das empresas, uma vez que a formulação da 
+remuneração executiva está sujeita a diversos fatores. Em sua própria concepção,
+a remuneração pode sofrer influência do próprio executivo e, quando se fala em 
+pagamento atrelado à performance, parte dessa performance é alheia à capacidade 
+e ao desempenho do CEO. Dessa forma, a próxima seção apresenta medidas relativas
+de desempenho que visam explicar a formulação da remuneração executiva.
+
+A visão do poder gerencial, de acordo com o proposto por @Bebchuk2003, agrava o
+problema de agência, de forma que quanto maiores o poder e a influência de um
+executivo, maior será sua capacidade de aumentar sua própria remuneração. 
+@Bertrand2001 utilizam uma lógica parecida, sob o que eles nomeiam de *skimming
+view* (pode ser entendido como extração de riqueza). 
+
+São abordagens semelhantes, ambas propõem visões alternativas em relação ao 
+conceito inicial da agência, e a ocorrência de *pay for luck* (ou *pay without
+performance*) são uma consequência de ganho de poder e influência dos executivos
+sobre processos sensíveis da empresa, oriundos de falta de controle e governança
+fraca. Tanto @Bertrand2001 quanto @Bebchuk2003 argumentam que em ambientes
+de governança fraca e ausência de controle, os executivos tendem a receber 
+maiores salários e recompensas, alheios ao seu desempenho, que reflete no 
+desempenho da empresa. Baseado nisso, propõe-se a seguinte hipótese do estudo:
+
+***H1*: Empresas sem controlador apresentam maiores
+índices de *pay for luck*.**
+
+
+## Evidências internacionais {#sec-revisao0}
+
+### Estudos sobre remuneração executiva e Covid-19 {#sec-revisao1}
+  
+O relatório de @Bivens2022 compara a evolução da remuneração de executivos das 
+350 maiores empresas dos Estados Unidos com ações na bolsa com outras variáveis,
+como salário dos trabalhadores médios e evolução do valor das ações de tais 
+empresas. Em 1965, a diferença na proporção da remuneração média dos executivos
+da amostra em relação ao salário médio dos trabalhadores das indústrias às quais
+essas empresas pertencem, era de 20 para um. Em 2021, essa diferença atingiu sua
+máxima histórica, numa proporção de 399 para um. Os autores ponderam que esse 
+crescimento não necessariamente está ligado a um crescimento proporcional em 
+termos de desempenho, uma vez que o crescimento da remuneração total foi 37% 
+maior que o valor das ações de tais empresas.
+  
+A relação entre remuneração e desempenho em períodos de crise é um foco 
+importante de estudos. A literatura aponta que executivos podem exercer 
+influência sobre sua remuneração [@Zattoni2021]. Durante a pandemia de Covid-19,
+cerca de 4.000 empresas buscaram proteção contra falência nos Estados Unidos, 
+das quais alguns exemplos pagaram bônus milionários a seus executivos pouco 
+antes de requererem falência, como as empresas J.C. Penney e Hertz [@Munir2021]. 
+
+Dados ainda mais abrangentes mostram  que o PIB norte americano caiu 3,5% em 
+2020, enquanto 74% das empresas do país mantiveram as estruturas de remuneração 
+de seus CEO's intactas [@Eklund2021]. Portanto, em um contexto de crise em que 
+as empresas tendem a ter uma queda na sua lucratividade, é recomendado que se 
+avalie se esse fenômeno tem um impacto também negativo sobre a remuneração 
+executiva [@Zattoni2021].
+
+@Alves2021 mencionam que os CEO's estavam diante de um dilema na pandemia: por 
+estarem trabalhando mais horas que o habitual, devido à situação excepcional, 
+poderiam usar esse argumento para que suas remunerações fossem mantidas. Por 
+outro lado, eles poderiam exercer um papel de liderança, uma vez que várias 
+partes foram prejudicadas pela crise econômica causada pela pandemia, admitir 
+cortes salariais seria uma forma de contribuir com a organização para superar o
+período de crise.
+  
+A análise empírica de @Alves2021 avalia como as reduções salariais de executivos
+de empresas que anunciaram cortes de dividendos impactaram na aprovação de tais 
+executivos perante os acionistas. Eles utilizam a suspensão de dividendos como 
+uma variável instrumental para analisar os cortes salariais dos CEO's. Os 
+autores analisaram uma amostra de 1056 empresas no ano da pandemia, listadas no 
+índice Russel 3000, identificando aquelas que anunciaram ou não tanto cortes em 
+dividendos, quanto cortes em pagamentos. 
+
+Para tanto, eles estimaram modelos de mínimos quadrados em dois estágios para 
+avaliar o efeito dos cortes salariais sobre a aprovação dos CEO’s perante os 
+acionistas, a fim de lidar com o viés da variável omitida e causalidade reversa.
+Das empresas que anunciaram cortes em dividendos, aproximadamente 30% anunciaram
+redução de pagamentos aos CEO's; já nas empresas que não anunciaram cortes de 
+dividendos, esse percentual cai para menos de 10%. Os autores encontraram 
+evidências de que os cortes salariais propostos contribuíram para a aprovação da
+imagem dos CEO's perante os investidores. 
+  
+Ainda mais, eles propuseram uma outra hipótese. Baseado na afirmação de
+@Core2003, de que grande parte da remuneração dos executivos é baseada em ações
+e não em salários, o que poderia fazer com que os CEO's optassem por uma redução
+salarial, acompanhada de um eventual aumento nos valores de suas ações, 
+@Alves2021 analisaram o comportamento das ações das empresas da amostra, a fim 
+de avaliar se os executivos anunciaram cortes em seus proventos por um lado e 
+ganharam aumento nos preços de suas ações por outro. Nesse contexto, eles 
+identificaram que o índice Nasdaq 100 apresentou uma alta no início da pandemia,
+uma vez que certos setores, como o de tecnologia por exemplo, não foram 
+negativamente afetados pela crise. 
+
+Para realizar essa análise, eles criaram uma subamostra com empresas que 
+tiveram quedas maiores que 15% em suas receitas. Posteriormente, identificaram 
+que esse grupo de empresas teve uma queda de 31% no valor de suas ações e, 
+consequentemente, nesse componente de remuneração dos seus executivos. Tais 
+fatos permitiram que o estudo inferisse que os cortes salariais anunciados 
+foram efetivos e foram uma forma de "compartilhar a dor", como mencionado no 
+texto. Cabe ressaltar neste caso, que os autores apontam a queda nos preços das
+ações como uma evidência de que os CEO's não foram recompensados por outros 
+meios em relação às perdas salariais, entretanto, eles não abordam de forma 
+separada como as decisões tomadas influenciaram no pagamento de bônus e 
+*stock options* no período.
+
+O estudo de @Bedford2023 analisou uma amostra de 252 empresas do mercado 
+australiano nos anos de 2019 e 2020, com dados de seção cruzada, com o objetivo 
+de avaliar se as empresas que anunciaram cortes nos pagamentos de seus 
+executivos realmente executaram tais políticas, ou se os anúncios foram 
+simbólicos. Para isso, os autores utilizaram modelos *logit* para identificar 
+fatores que influenciam na decisão de uma empresa em anunciar cortes nos 
+pagamentos de seus CEO's. Posteriormente, utilizaram modelos de mínimos 
+quadrados ordinários para analisar o comportamento da remuneração no contexto 
+da pandemia, influenciada por variáveis como o anúncio de cortes salariais de 
+seus executivos, variáveis de desempenho financeiro e de mercado, além de 
+variáveis de governança, principalmente relacionadas ao conselho de administração.
+  
+O estudo encontrou evidências dos motivos pelos quais as empresas anuciaram 
+cortes de pagamentos aos executivos, bem como resultados que comprovam se elas 
+de fato efetuaram tais cortes. Primeiro, os anúncios de redução salarial estavam
+ligados à redução de pessoal, cortes de dividendos e recebimento de subsídios do
+governo; evidência de uma tentativa de aliviar pressões pelas ações tomadas. 
+
+Com relação à efetivação das reduções, embora os testes tenham demonstrado uma
+queda no salário base de 2019 para 2020, o mesmo não ocorreu com a remuneração 
+total. Esse seria um indício de que as empresas substituíram salários fixos por 
+bônus e realizaram os anúncios de corte de pagamentos como uma forma de amenizar
+as críticas da opinião pública às perdas causadas pela pandemia [@Bedford2023]. 
+Tais resultados contrastam com o estudo de @Alves2021, que encontraram evidências
+de que os cortes salariais anunciados em sua amostra foram realmente efetivos.
+
+@Bedford2023 realizaram alguns testes de robustez, como por exemplo: 
+substituíram os modelos *logit* por modelos lineares de probabilidade; 
+interagiram o ROA com anúncio de corte salarial para verificar a influência do 
+desempenho sobre a remuneração após o anúncio de corte salarial; e também 
+utilizaram efeitos fixos por estados, a fim de identificar possíveis diferenças 
+regionais na amostra. Entretanto, os resultados anteriormente encontrados não 
+foram significativamente impactados.
+  
+@Ye2023 analisaram a relação da performance empresarial com a remuneração 
+executiva e também com a proporção da remuneração executiva com relação ao 
+salário médio, antes e durante a pandemia de Covid-19. A amostra do estudo 
+consistiu de 1280 empresas do índice S&P 1500 no período de 2018 a 2021. Os 
+autores utilizaram modelos de efeitos fixos para avaliar a influência do ROA e 
+do montante de vendas líquidas na remuneração executiva total (salários, ações,
+bônus e prêmios), bem como sobre o índice de proporção entre remuneração 
+executiva e salário médio dos trabalhadores. 
+
+Primeiro, foi constatado que a remuneração executiva teve um aumento de 29,6% no
+período da pandemia (2020 e 2021) em relação ao período anterior (2018 e 2019).
+Sobre a remuneração total, o modelo mais completo, incluindo todas as variáveis 
+de controle, encontrou evidências de que tanto o ROA quanto o resultado de 
+vendas líquidas exerceram influência positiva sobre a remuneração. Quando 
+interagidas com a *dummy* referente ao período de pandemia, essas variáveis não 
+apresentaram influência, evidenciando que a pandemia não modificou essa relação.
+  
+O segundo modelo avalia a influência das variáveis explicativas sobre a 
+proporção salarial dos executivos em relação ao salário médio. Um primeiro 
+resultado mostra que a variável relativa ao período de pandemia apresentou um 
+coeficiente estatisticamente significativo de 0,172 sobre o índice de diferença 
+salarial. Isso evidencia que no período da pandemia, a disparidade de salários 
+dos executivos e dos trabalhadores médios aumentou. A regressão com todas as 
+variáveis de controle mostrou que tanto o ROA quanto as vendas líquidas 
+influenciaram positivamente no índice de diferença salarial no período. 
+No entanto, as variáveis de interação para a pandemia não apresentaram 
+significância, estabelecendo que novamente o período de pandemia não influenciou
+nessa relação. 
+  
+As principais evidências encontradas pelo estudo de @Ye2023 são o aumento da 
+remuneração total de executivos no período da pandemia e um aumento na 
+disparidade salarial entre os executivos e os trabalhadores médios dessas 
+indústrias. Tais resultados são condizentes com o relatório de @Bivens2022; 
+ambos encontraram uma disparidade entre os pacotes de remuneração de executivos 
+e trabalhadores médios, sendo que essa disparidade cresceu com o tempo e com 
+destaque para o aumento no período de pandemia, em que várias partes foram 
+prejudicadas, como acionistas e trabalhadores. Cabe ressaltar que neste estudo 
+não foram abordados componentes segregados da remuneração. A variável dependente
+(CEO_comp) incluiu salários, bônus, ações e opções. Seria importante considerar 
+os diferentes tipos de remuneração, pois como evidenciado no trabalho de 
+@Bedford2023, diferentes pacotes de remuneração podem sofrer efeitos distintos.
+
+@Muzata2023 utilizam as variáveis geralmente trabalhadas neste campo de estudos,
+como remuneração, performance e indicadores de governança corporativa, buscando 
+encontrar evidências entre remuneração e desempenho. Além disso, os autores 
+propõem uma abordagem extra, assim como @Ye2023: a desigualdade salarial. 
+Os autores justificam que a desigualdade salarial cria abismos de poder dentro 
+das organizações e se propõem a investigar os efeitos dessa condição na relação
+entre remuneração executiva e performance. Neste caso, ao contrário dos demais 
+trabalhos abordados até aqui, os indicadores de desempenho foram usados como 
+variáveis explicadas e a remuneração como variável explicativa.
+  
+@Muzata2023 usaram o índice Gini de desigualdade para calcular a disparidade 
+salarial, e utilizaram um índice de governança que atribuía 20 pontos para as 
+empresas que cumprissem todos os requisitos exigidos para boa governança, 
+decrescendo ao índice zero para as empresas que não cumpriam nenhum. Como 
+métricas de desempenho, utilizaram ROA, ROE e margem de lucro líquido. Além 
+disso, três variáveis importantes de controle: crescimento do PIB, uma *dummy* 
+para o período de pandemia e a taxa de inflação. A amostra foi composta pelas 
+46 maiores empresas da Bolsa de Valores de Joanesburgo, num período de 2008 a 
+2020. Para realizar as análises, os autores utilizaram o método generalizado de
+momentos para painéis dinâmicos. Ainda no aspecto metodológico, os autores 
+realizaram testes para verificar endogeneidade, autocorrelação, dependência 
+transversal e heterogeneidade; não reportando problemas.
+  
+Os resultados apresentaram uma relação negativa entre a remuneração e os 
+indicadores de desempenho, evidenciando um desalinhamento na política de 
+remuneração das empresas. O indicador de desigualdade apresentou relações 
+controversas com relação ao desempenho, tendo tido relações significantes tanto 
+positivas quanto negativas, a depender do indicador de desempenho analisado. 
+Curiosamente, o índice de desigualdade apresentou influência positiva quando 
+interagido com a remuneração executiva. Os autores atribuem tal resultado ao 
+fato de que um ambiente desigual seria uma forma de incentivo para que 
+funcionários buscassem melhores posições, ao tempo em que estimularia os 
+executivos a exercerem esforços para manterem seus cargos. O indicador de 
+governança corporativa apresentou influência positiva apenas sobre a margem de 
+lucro líquido, sem significância sobre os outros indicadores de desempenho. 
+Curiosamente, a *dummy* representativa do período de pandemia não exerceu 
+influência negativa sobre os indicadores de desempenho no estudo.
+
+O estudo de @Danysh2023 apresenta uma abordagem diferente dos demais estudos,
+pois foca na relação de variáveis até então abordadas, como remuneração, 
+desempenho e influência da pandemia, com uma nova abordagem sobre a qualidade 
+das informações financeiras apresentadas pelas empresas nesse contexto. O autor
+testa se a qualidade das informações financeiras, representadas por fatos 
+contábeis discricionários, foram influenciados por ações de gestão de desempenho,
+e se a política de gestão de desempenho é afetada pela pandemia, por políticas 
+de incentivo governamentais e pelo montante de remuneração executiva. De forma 
+mais clara, o objetivo do autor é investigar se tais variáveis influenciam em 
+uma possível manipulação contábil, através de fatos discricionários (descritos 
+como registros contábeis flexíveis).
+
+O autor utilizou uma amostra com 2451 observações, do período de 2013 a 2021, 
+analisando 324 empresas do setor de lazer e hospitalidade dos Estados Unidos. 
+Como variável explicada, foram empregados os chamados *accruals* discricionários
+(fatos contábeis flexíveis); como variáveis explicativas foram utilizados o 
+período de pandemia da Covid-19, incentivos governamentais e remuneração 
+executiva. Além disso foram utilizadas variáveis de controle, como variação dos 
+ativos circulantes, variação de caixa e equivalentes, variação de passivos 
+circulantes, receitas, alavancagem, ROA, além de interações entre variáveis. 
+Para garantir o cumprimento dos pressupostos do modelo, o autor realizou testes 
+de relação linear, multicolinearidade, independência dos resíduos, 
+homocedasticidade, distribuição normal e o teste de Cook.
+
+@Danysh2023 aponta que a *dummy* referente à pandemia de Covid-19 apresentou 
+influência significativa sobre a variável explicativa, o que é apontado por ele 
+como uma manipulação do resultado. Além disso, incentivos do governo e 
+remuneração executiva também apresentaram influência significativa sobre tais 
+fatos contábeis. Baseado nisso, o autor supõe que essa ação seria uma forma de 
+atender a requisitos para obter ajudas do governo, sem manchar a imagem 
+gerencial, uma vez que a queda geral da economia pode ser entendida como um 
+fator exógeno.
+
+Há dois aspectos a se pontuar sobre o estudo de @Danysh2023. Primeiro, o fato 
+de ele ter abordado apenas um setor da economia, de lazer e hospitalidade. Tal 
+setor foi o principal afetado pela pandemia, com mais que o dobro de vagas de 
+emprego perdidas em relação ao segundo setor mais afetado e destoando dos demais
+[@Gould2021]. Portanto, poderia ser interessante fazer uma análise mais 
+abrangente comparando a outros setores, uma vez que os resultados encontrados 
+podem estar muito relacionados a essa grande queda no setor. Um segundo ponto é 
+a ausência dos mecanismos de governança. O próprio autor menciona a importância
+de mecanismos de governança e do trabalho de fiscalização do conselho de 
+administração para monitorar ações executivas; entretanto, nenhum mecanismo de 
+governança foi inserido aos modelos do estudo.
+  
+O trabalho de @Abrar2025 estuda os efeitos de características do conselho de
+administração e da remuneração executiva sobre os gastos com pesquisa e 
+desenvolvimento durante a pandemia. A análise aborda 52 das empresas 
+consideradas mais inovadoras na Austrália, do ano de 2019 a 2023. Mais 
+especificamente, as características do conselho avaliadas são tamanho, 
+independência e frequência das reuniões. 
+
+Os componentes de remuneração são divididos entre a remuneração em dinheiro 
+(composta por incentivos de curto prazo e salário fixo) e incentivos de longo 
+prazo (incentivos de longo prazo e remuneração por ações).O autor utiliza P&D 
+como variável explicada, e as variáveis relativas ao conselho e remuneração como
+explicativas. Para a variável de P&D são utilizadas três *proxies*: log dos 
+gastos com P&D, uma *dummy* de diversificação (1 se existe diversificação e 0 
+se não) e intensidade de P&D (gastos com P&D divididos pela receita). O método 
+utilizado foi o de modelagem de equações estruturais de mínimos quadrados 
+parciais, segundo o autor, adequado para lidar com amostras de menor tamanho.
+  
+@Abrar2025 encontrou evidências de que as características do conselho (tamanho, 
+independência e frequência das reuniões) influenciam positivamente sobre as 
+*proxies* de P&D. Isso se deve ao fato de que conselhos maiores e mais 
+independentes possuem visões mais amplas e qualificadas, a fim de promover 
+debates e fornecer boas instruções sobre as atividades de investimento. Com 
+relação aos componentes de remuneração, os resultados foram diferentes. A 
+remuneração de curto prazo apresentou influência negativa sobre os investimentos
+em P&D, enquanto a remuneração de longo prazo e remuneração por ações, 
+apresentaram influência positiva.  Os incentivos em forma de ações influenciam
+positivamente nos gastos com P&D, pois gastos com P&D tendem a influenciar no 
+desempenho futuro da empresa. Então, uma vez que a riqueza do executivo estará 
+diretamente ligada ao desempenho futuro, o CEO será influenciado a investir
+pensando no desempenho de longo prazo. Tais relações não foram alteradas ou 
+tiveram sua magnitude diminuída no período da pandemia.
+
+Com relação ao trabalho de @Abrar2025, o próprio autor menciona uma limitação 
+importante: são avaliados apenas métricas de gastos com P&D, sem avaliar sua 
+qualidade ou seus resultados. Ou seja, é avaliado apenas o valor gasto com 
+atividades de P&D, sem observar resultados referentes a esses gastos e, apesar 
+de que investimentos em P&D são importantes para a sobrevivência de empresas, é
+necessário avaliar se esses gastos são efetivos. Além disso, o trabalho deixa 
+de abordar mais detalhadamente como a pandemia influenciou o comportamento das 
+variáveis trabalhadas no estudo.
+  
+A relação entre remuneração executiva e outras variáveis de mercado no contexto 
+da pandemia de Covid-19 é um tema ainda pouco explorado, visto que a pandemia é 
+um fenômeno relativamente recente. Tais estudos abordam o comportamento da 
+remuneração com diversas outras variáveis, como desempenho, salário médio de 
+trabalhadores, valor de ações, pagamentos de dividendos, etc. E em suma, os 
+esultados ainda parecem controversos. Por exemplo, o estudo de @Alves2021 
+encontrou evidências de que os cortes propostos em salários de executivos foram
+realmente exercidos; enquanto os estudo de @Bedford2023 no mercado australiano 
+encontrou evidências de que os cortes salariais foram recompensados com outros
+tipos de renda.
+  
+Diversas partes foram prejudicadas pelos efeitos econômicos da pandemia. 
+@Alves2021 relataram cortes no pagamento de dividendos, @Munir2021 mencionou o
+grande número de pedidos de proteção contra falência nos Estados Unidos, 
+enquanto @Bedford2023 exemplificou paralisações coletivas e demissões na 
+Austrália. Diante de vários tipos de perda, estudos como os de @Bivens2022 e 
+@Ye2023 mostraram que na pandemia a remuneração executiva continuou a subir, 
+bem como a aumentar sua proporção em relação aos salários médios. Retomando o 
+relatório de @Bivens2022, tanto a remuneração quanto a diferença na proporção 
+com relação ao salário médio atingiram máximas históricas no ano de 2021, em um 
+recorte que se inicia em meados dos anos 60. 
+  
+Em meio a tantas perdas, esses aumentos talvez possam ser justificados pela 
+capacidade que executivos têm de exercer influência em sua própria remuneração 
+[@Zattoni2021]. @Jensen1990 fizeram afirmação semelhante ainda nos anos 90, 
+pontuando que essa influêcnia pode ser ainda mais evidenciada em ambientes com 
+governança fraca. Pautado nisso, a próxima seção aborda trabalhos que analisam 
+a influência de mecanismos de governança sobre o desempenho de empresas no 
+contexto da pandemia de Covid-19.
+
+### O papel da Governança {#sec-revisao2}
+
+Para @Zattoni2021, apesar de a crise causada pela pandemia ser diferente das 
+demais crises anteriores - causadas por falhas estruturais e comportamentos 
+indevidos de agentes econômicos - ainda assim é importante avaliar como 
+estruturas e mecanismos de governança auxiliaram no enfrentamento da crise 
+econômica originada pela crise sanitária. Além do componente de incentivo 
+abordado na seção anterior, mecanismos de governança, que representam formas 
+de controle e monitoramento, também são aspectos importantes a serem abordados.
+Diversos mecanismos que funcionam bem em períodos normais podem não ser tão 
+efetivos em períodos de crise, e vice versa; dessa forma, é necessário entender
+como os mecanismos de governança auxiliaram no enfrentamento da última grande 
+crise global [@Jebran2023].
+  
+Retomando o aspecto da remuneração, a despeito das perdas sofridas por empresas,
+trabalhadores e acionistas, pesquisas como as de @Bivens2022 e @Munir2021 
+encontraram evidências de que executivos obtiveram rendas históricas e prêmios 
+em período de performance ruim. @Bedford2023 ainda encontra evidências de que 
+mesmo quando anunciaram cortes salariais publicamente, os executivos ainda 
+obtiveram ganhos por outras fontes como bônus. Para @Bebchuk2004, a ideia do 
+poder gerencial é um fator que pode explicar por que executivos conseguem obter
+altas remunerações em períodos de baixas para as empresas, e estruturas de 
+governança frágeis aumentam a influência dos CEO's sobre o *design* de 
+remuneração e outros aspectos gerenciais. Dessa forma, este tópico aborda
+como mecanismos e estruturas de governança influenciaram na performance das 
+empresas e na remuneração de executivos durante a pandemia de Covid-19.
+  
+O trabalho de @Jin2021 teve por objetivo analisar como estruturas de governança 
+corporativa influenciaram o desempenho de empresas no setor de turismo da China,
+diante do impacto da Covid-19. Primeiro, os autores analisaram se as empresas de
+turismo foram mais afetadas que as dos demais setores no período da pandemia. 
+Posteriormente, analisaram como mecanismos de governança influenciaram esse 
+comportamento. Os mecanismos abordados foram a natureza de propriedade
+(estatal ou não estatal), remuneração executiva e tamanho do conselho de 
+administração e conselho fiscal. Os indicadores de desempenho utilizados foram
+ROA e crescimento da receita operacional.
+
+Para realizar as análises, os autores combinaram dois métodos: o método 
+*Difference-in-Difference* para isolar os efeitos da pandemia e o método 
+*Propensity Score Matching* a fim de reduzir vieses de seleção. A amostra foi 
+composta por 144 empresas do setor de turismo e 143 empresas dos demais, 
+totalizando 287 empresas, abordando os anos de 2019 e 2020.A natureza de 
+propriedade foi definida por uma *dummy* com valor 1 para empresas estatais, 
+e a remuneração executiva foi representada pelo montante dos três maiores 
+salários de executivos de cada empresa. Além disso, foram utilizadas variáveis 
+de controle, como tamanho, idade da empresa, alavancagem, liquidez, capital de 
+giro, dentre outras.
+
+Em acordo com a primeira hipótese sugerida pelo estudo, as empresas de turismo 
+tiveram maiores quedas no desempenho, tanto representado pelo ROA quanto pelo 
+crescimento de receitas operacionais. Posteriormente, foi identificado que as 
+empresas de turismo sob controle estatal tiveram menores quedas tanto do ROA 
+quanto da receita. A remuneração executiva apresentou influência positiva sobre
+o desempenho, de forma que quanto maior a remuneração, menor a queda dos 
+indicadores. Por outro lado, o tamanho do conselho de administração influenciou
+negativamente no desempenho. Segundo os autores, esse comportamento pode ser 
+explicado pelo fato de que conselhos maiores requerem maior tempo para tomar 
+decisões e, as mudanças drásticas de consumo no setor de turismo dificultaram 
+as ações de conselhos com mais membros. Por fim, foi identificado que os
+conselhos fiscais não exerceram influência significativa sobre os indicadores.
+
+No geral, os resultados apontam que os mecanismos de governança funcionaram 
+de maneira distinta no enfrentamento à pandemia. Além disso, cabe destacar o 
+resultado encontrado de que as empresas do setor de turismo sofreram maiores 
+quedas na pandemia. Essa é uma característica inerente dessa crise, uma vez que
+as políticas de restrição eram mais abrangentes em alguns setores que em outros.
+Como limitação do estudo, @Jin2021 apontam tanto o foco no setor de turismo,
+sem explorar profundamente outros setores da economia, bem como a limitação do 
+tempo, que não permitiu analisar os efeitos a longo prazo.
+
+@Li2022 analisaram como as decisões relacionadas aos pacotes de remuneração dos
+executivos (salários, bônus e remuneração de longo prazo) tomadas no período da
+pandemia de Covid foram recebidas por investidores e pelo International 
+Shareholder Services ISS (órgão consultor), a fim de identificar se houve o que
+eles chamam de justiça na formulação dos pacotes de remuneração.
+
+Foram utilizados dados das empresas listadas no índice S&P 1500, referentes ao 
+ano de 2020, empregando modelos de regressão linear com efeitos fixos. Os 
+autores analisaram como variáveis de desempenho e governança influenciaram na 
+remuneração dos executivos. Como variáveis de desempenho foram utilizados ROA, 
+retorno das ações, *Q* de Tobin, avaliação relativa de desempenho 
+(representada pelo retorno total ao acionista relativo) e avaliação absoluta de 
+desempenho, relativa a metas individuais das empresas.
+
+Os resultados apontam que cerca de 30% das empresas reduziram os salários-base 
+dos executivos, enquanto 25% aumentaram os bônus, o que é na opinião dos autores
+uma forma de o conselho recompensar os CEO's pelos esforços feitos no combate à 
+crise econômica. Essa evidência é semelhante à encontrada por @Bedford2023 na 
+Austrália. Também foram identificados aumentos em remuneração de longo prazo, e
+tais ajustes foram responsáveis pela desaprovação juntos aos investidores. Os 
+autores apontam ainda que houve aprovação dos investidores pelo uso de medidas
+relativas de desempenho para delineamento da remuneração executiva.
+
+O estudo foca bastante nas recomendações da ISS com relação a condições na
+decisão sobre a remuneração executiva para recomendação de aprovação dos 
+investidores aos pacotes de remuneração. Entretanto, não aborda de forma 
+aprofundada como as diferentes estruturas internas de governança afetam a 
+sensibilidade da remuneração ao desempenho. Cabe ressaltar também que a queda
+identificada na remuneração base e substituição por bônus, como foi encontrado
+nesse estudo, é divergente ao resultado encontrado por @Alves2021, que também 
+analisaram empresas listadas nos Estados Unidos.
+
+O objetivo do estudo de @Ibrahim2023 foi analisar a relação entre remuneração
+executiva, estrutura de propriedade e desempenho. Os autores analisaram empresas
+do setor de manufatura da Indonésia. Mais especificamente os autores visam 
+compreender como essa relação foi influenciada pela pandemia de Covid-19. Foram
+utilizados dados de todas as empresas do setor de manufatura da Indonésia 
+listadas no índice IDX, no período de 2019 a 2022. O método de análise utilizado
+foi o de Mínimos Quadrados Generalizados. As variáveis dependentes utilizadas
+foram ROA e ROE. As variáveis independentes de foco do estudo foram a 
+remuneração executiva e a propriedade institucional, representada pelo 
+percentual de ações pertencentes a investidores institucionais.
+
+Os resultados apontam que a remuneração executiva apresentou um efeito positivo 
+sobre o ROA, mas sem efeito significativo sobre o ROE. O intuito da utilização 
+da proxy de natureza de propriedade foi verificar se a presença de investidores 
+institucionais exerceria influência no alinhamento entre remuneração e 
+desempenho. Entretanto, não foi encontrado efeito significativo da natureza de 
+propriedade. @Ibrahim2023 atribuem esse fato à possibilidade de que investidores
+institucionais estejam mais propensos a se preocuparem com todo o seu portfólio,
+ao invés do gerenciamento individual das empresas.
+
+O estudo em questão possui algumas inconsistências e lacunas identificadas. 
+Primeiro, não explicita uma análise de como a pandemia exerceu influência sobre
+a relação entre remuneração e desempenho. Um segundo ponto é que, apenas a 
+presença de controladores institucionais foi considerada, sem abordar outros 
+tipos de controle como familiar, estatal ou disperso, para fins de comparação. 
+Por fim, também não foram consideradas outras variáveis importantes usuais 
+nesse tipo de estudo, como tamanho e independência do conselho de administração,
+ou conselho fiscal. 
+
+O trabalho de @Ajeigbe2023 teve como objetivo avaliar os impactos da pandemia 
+sobre mecanismos de governança, desempenho e remuneração de executivos de 
+empresas listadas na Bolsa de Valores de Joanesburgo. Os autores realizaram 
+uma análise de 2010 a 2021, visando comparar diferentes períodos para avaliar 
+os efeitos do pré e pós-Covid. Os dados foram analisados pelos métodos de 
+Mínimos Quadrados Ordinários Totalmente Modificados e Mínimos 
+Quadrados Dinâmicos. ROA, remuneração dos executivos e tamanho do conselho 
+foram utilizados como variáveis dependentes, representando os índices de 
+sustentabilidade/desempenho empresarial e governança corporativa. Como variáveis
+explicativas foram empregados gastos relacionados à Covid-19, margem de lucro 
+líquido, liquidez corrente, endividamento relativo ao patrimônio líquido, custos
+com demais trabalhadores e presença de mulheres no conselho.
+
+Os resultados indicam que liquidez corrente e margem de lucro líquido 
+influenciaram de forma positiva o ROA, a remuneração executiva e o tamanho do 
+conselho. Por outro lado, o endividamento e custos com demais trabalhadores 
+exerceram influência negativa sobre essas variáveis. A diversidade de gênero do
+conselho exerceu influência positiva sobre a rentabilidade, entretanto negativa
+sobre remuneração executiva e tamanho do conselho. Tal resultado é interessante
+pois, o fato de outros fatores aumentarem a remuneração dos executivos e tamanho
+do conselho não necessariamente implica em um benefício para a empresa, enquanto
+o aumento da rentabilidade sim. Cabe ressaltar também que, assim como esperado, 
+gastos adicionais decorrentes da pandemia exerceram influência negativa sobre as
+variáveis dependentes.
+
+Um achado considerável da pesquisa, que não foi amplamente abordado pelos 
+autores, é o fato de que alguns setores foram positivamente influenciados pelo 
+período da pandemia, como os setores de saúde, telecomunicações e alimentação. 
+Isso evidencia a importância da análise de como diferentes setores foram 
+atingidos pela pandemia. Outro aspecto a se pontuar no estudo se refere ao 
+*design* metodológico do modelo; mais especificamente no fato de que os autores
+utilizaram uma variável de desempenho (margem de lucro líquido) para explicar o 
+comportamento de outra (ROA), bem como a remuneração executiva. Além disso, como
+mencionado anteriormente a respeito do trabalho de @Ibrahim2023, é questionável 
+considerar que o tamanho do conselho representa um indicador de boa ou má 
+governança, sem entender o seu contexto.
+
+O trabalho de @Ozer2024 dá uma abordagem um pouco diferente, estudando a 
+remuneração do conselho de administração. O objetivo foi avaliar a influência da
+remuneração dos membros do conselho sobre o desempenho de empresas turcas. Sob 
+a hipótese de que a remuneração do conselho influencie positivamente o 
+desempenho das empresas, os autores analisaram dados de 76 empresas listadas no
+índice BIST 100, da Bolsa de Valores de Istanbul, de 2018 a 2020, possibilitando
+também a análise dos efeitos da pandemia sobre essa relação.
+
+Os autores utilizaram modelos de regressão linear, empregando ROA, ROE e lucro 
+por ação como variáveis dependentes. Como variável independente principal foi 
+utilizada a remuneração dos conselheiros. Além disso, foram incorporadas 
+métricas de governança, como tamanho e independência do conselho e dualidade de
+cargos; além de variáveis de controle como tamanho e idade das empresas, 
+alavancagem, liquidez corrente, volume de vendas, uma *dummy* para identificar
+empresas multinacionais e uma outra para avliar os efeitos da pandemia de Covid.
+
+Em acordo com a hipótese proposta, @Ozer2024 encontraram influência positiva da
+remuneração do conselho de administração sobre ROA e ROE, com a ressalva de que
+o efeito foi baixo. Já na análise do lucro por ação, não houve relação 
+significativa. Com relação às demais variáveis de governança, não exerceram 
+influência significativa sobre o desempenho, com exceção do tamanho do conselho,
+que exerceu influência positiva sobre o índice de lucro por ação, entretanto, 
+apenas sobre esse indicador. 
+
+Os resultados obtidos tornam pouco conclusiva a influência dos mecanismos de 
+governança sobre a relação de remuneração e desempenho, uma vez que o efeito 
+econômico da remuneração foi baixo e as demais variáveis referentes a mecanismos
+de governança não exerceram influência sobre os indicadores de desempenho, com 
+exceção da relação entre tamanho do conselho e lucro por ação, conforme 
+mencionado. Um outro ponto a se ressaltar é a falta de detalhamento dos autores
+sobre como o período da pandemia influenciou nessa relação. A *dummy* foi apenas
+utilizada no modelo de forma isolada, sem apresentar resultados significativos. 
+Seria plausível interagi-la com as variáveis de interesse para analisar como o
+contexto da pandemia influenciou na relação entre governança e desempenho.
+
+O panorama dos trabalhos com foco na influência da governança corporativa sobre
+a relação entre remuneração e desempenho é bastante diversificado. É perceptível
+que há variáveis mais usuais, principalmente referentes ao conselho de 
+administração, como tamanho e independência do conselho, dualidade, diversidade
+de gênero. Mas há também outros aspectos utilizados, como natureza da 
+propriedade acionária, conselho fiscal, podendo haver extensão para estruturas 
+externas, como entidades de controle externas como a ISS, abordada no estudo de
+@Li2022. Cabe ressaltar também as diferentes aplicações que tais estruturas têm
+dentro das análises estatísticas. Por exemplo, servindo como variável 
+explicativa principal, como foi com a remuneração dos conselheiros no estudo
+@Ozer2024; como variável explicativa secundária, como o controle institucional
+no estudo de @Ibrahim2023. Os mecanismos de governança foram ainda usados como
+variável dependente no estudo de @Ajeigbe2023. Esse contexto oferece uma visão
+da diverisade de abordagens sobre mecanismos de governança dentro desse campo 
+da literatura. 
+
+A próxima seção apresenta pesquisas na literatura brasileira acerca das relações
+entre remuneração, desempenho empresarial e governança no contexto da Covid-19.
+O intuito é de apresentar um panorama da literatura nacional e identificar 
+lacunas de pesquisa a serem preenchidas. Os trabalhos brasileiros não foram
+divididos em subtópicos como feito com a literatura internacional, devido à 
+maior escassez de trabalhos acerca desse tema.
+
+## Evidências Nacionais {#sec-revisao3}
+  
+Esta seção busca analisar artigos que abordaram os efeitos da pandemia de 
+Covid-19 sobre a relação entre remuneração executiva, governança coporativa e 
+medidas de desempenho das empresas brasileiras. O intuito dessa abordagem é 
+investigar variáveis trabalhadas, fontes de dados, principais resultados e, 
+principalmente, o panorama de pesquisa, a fim de evidenciar possíveis lacunas a 
+serem preenchidas por estudos futuros. 
+  
+O artigo de @Santos2023 analisa o impacto da governança corporativa no 
+desempenho das empresas brasileiras durante o período da pandemia. Como *proxie*
+de governança corporativa, os autores utilizam os segmentos de listagem da B3.
+A análise considerou uma amostra de 435 empresas listadas na bolsa, com três 
+janelas de eventos: i) antes da crise (23/01/2020, maior alta do índice IBOVESPA)
+; ii) queda ocasionada pela pandemia (23/03/2020); e recuperação (06/01/2021). 
+O objetivo do estudo foi investigar se empresas com maiores índices de 
+governança apresentaram maior resiliência do valor de suas ações com relação à 
+queda do mercado.
+  
+Com base nos segmentos de listagem, os autores criaram três níveis de 
+governança: alto (Novo Mercado), médio (Nível 1 e Nível 2) e baixo 
+(mercado tradicional). Bovespa Mais e Bovespa Mais Nível 2 foram desconsiderados
+pelo baixo número de empresas. Os retornos normais e anormais das ações foram 
+calculados com base no modelo CAPM, utilizando índices como IBOVESPA, IBrX50 e 
+IBrX100 para fins de comparação. Para avaliar a diferença de desempenho dos 
+retornos entre os diferentes segmentos de listagem, os autores utilizaram o 
+teste t de Student, a fim de avaliar a significância estatística nas diferenças
+de desempenho.
+  
+Os resultados demonstraram que na primeira janela, as empresas listadas no nível
+alto de governança tiveram uma maior alta nos retornos anormais com relação aos 
+demais níveis, comparando os três índices. Já na janela de recuperação, o 
+comportamento se inverteu: as empresas de menor governança apresentaram maiores
+retornos, seguidos pelas do segmento médio e, por fim, as de maior governança. 
+@Santos2023 argumentam que esse comportamento está ligado à ideia de risco e 
+retorno, e que estruturas de governança mais fracas geram maior volatilidade.
+  
+Com relação a esse estudo, cabe-se pontuar algumas ponderações. Primeiro os 
+autores utilizam apenas uma variável na análise. Apesar de se propor a avaliar
+a variação das ações, apenas os segmentos de listagem são utilizados para a 
+análise. Com base nos demais estudos listados nesta revisão, é visível que os
+preços das ações estão sujeitos à influência de diversos outros fatores que 
+poderiam ter sido considerados. Segundo, ressalta-se o curto período analisado,
+com apenas três eventos.
+  
+@Alencar2023 fazem uma análise semelhante à de @Santos2023. Os autores usam uma
+abordagem diferente para investigar como a segmentação em diferentes níveis de 
+governança influencia no desempenho das empresas brasileiras frente à crise 
+ocasionada pela pandemia. Para tanto, analisam uma amostra de 47 empresas 
+listadas na B3 nos anos de 2019 e 2020. O trabalho de @Alencar2023 também aborda
+os segmentos do Novo Mercado, Níveis 1, 2 e Tradicional, porém abordam mais 
+variáveis de desempenho em relação ao trabalho de @Santos2023.
+  
+@Alencar2023 utilizaram como *proxies* do desempenho: ROA, ROE, *Market-to-Book*,
+valor de mercado e faturamento bruto. As análises foram feitas comparando as 
+médias dos indicadores no ano de 2019 e o primeiro ano da pandemia. Os 
+resultados apontam que as diferenças entre empresas de altos e baixos níveis de
+governança foram discretas. As empresas do Novo Mercado apresentaram maiores 
+valores de ROA e *Market-to-Book*, enquanto as empresas de níveis menores 
+apresentaram uma maior rentabilidade sobre o patrimônio líquido (ROE). Nesse 
+contexto, um maior nível de governança não foi suficiente para garantir maior 
+desempenho em todos os aspectos.
+  
+Os autores concluem com o estudo que o atendimento a requisitos de governança 
+que permitam às empresas integrar níveis mais elevados de governança, por si só
+não garantem que essas empresas terão desempenho superior às demais constantes 
+nos níveis interiores. Com relação aos aspectos metodológicos, apesar desse 
+estudo apresentar mais variáveis de análise em relação ao de @Santos2023, 
+limitações semelhantes são encontradas. Um número de observações pequeno, pois
+foram utilizados dados anuais dos 47 itens da amostra, além de uma única 
+abordagem referente à governança. Além disso, ressalta-se que no estudo foram
+utilizadas apenas técnicas descritivas para comparar as médias, sem testes para
+detectar significância nas diferenças entre os resultados.
+  
+O estudo de @Souza2023 objetivou analisar se empresas brasileiras listadas nos
+níveis diferenciados de governança apresentaram diferenças significativas na 
+tempestividade da publicação de seus relatórios financeiros antes e após o 
+início da pandemia de Covid-19. A premissa da pesquisa é de que os níveis mais 
+altos de governança proporcionariam maior agilidade na divulgação das 
+informações por parte das empresas.
+  
+A análise compreendeu dados de 575 empresas da B3, considerando os três últimos
+trimestres de 2019 e os três primeiros de 2020, num total de 3447 observações.
+A variável de interesse analisada foi a defasagem de dias na publicação de 
+relatórios financeiros. A aplicação do teste de Jarque-Bera indicou a não 
+normalidade dos dados, dessa forma foi o utilizado o teste de Wilcoxon para
+comparar as distribuições entre os grupos definidos, referentes ao período 
+pandêmico, nível de governança e a interação entre essas variáveis.
+
+As análises demonstram que, no geral, houve uma redução média de 10 dias na 
+defasagem de publicação no período da pandemia em relação ao período anterior.
+As empresas listadas nos níveis diferenciados de governança apresentaram ainda 
+uma defasagem três dias menor em relação às empresas listadas no segmento 
+tradicional. Posteriormente, a amostra foi dividida entre o segmento tradicional
+e os níveis diferenciados. Nesse cenário, as empresas listadas nos níveis 
+superiores de governança apresentaram uma defasagem em média 12 dias menor,
+enquanto no segmento mais baixo não houve mudança significativa. 
+
+@Souza2023 afirmam que esse resultado evidencia a influência do nível de 
+governança corporativa na tempestividade das informações, em conformidade com a 
+hipótese da pesquisa. Entretanto, os autores apontam limitações com relação ao 
+número reduzido de variáveis, sugerindo a incorporação de mais variáveis de 
+controle. Cabe ressaltar também que a tempestividade das informações é apenas 
+uma entre várias ações organizacionais. Essa pesquisa não investiga, entretanto,
+se a medida de governança influencia significativamente no resultado empresarial.
+  
+@Prado2024 analisaram o impacto dos indicadores de governança no desempenho de
+empresas brasileiras, analisando também o impacto da pandemia nessa relação. O 
+estudo utilizou uma amostra de 366 empresas listadas na B3, no período de 2008 
+a 2022. Os autores utilizaram variáveis que identificaram os anos de 2008, 2014,
+2015, 2016 e 2018 como anos de crise, além do período da pandemia. O indicador 
+de performance utilizado foi o ROA. As variáveis referentes à governança 
+englobaram *scores* de gerenciamento, estrutura acionária e responsabilidade 
+social corporativa, que foram classificados de 0 a 100, sendo que quanto maior
+o *score*, maior o nível de governança atribuído. Além disso, utilizaram 
+variáveis de controle, como tamanho, alavancagem, volume e ativo imobilizado.
+Para análise, foram procedidas regressões lineares com dados agrupados.
+
+Com relação aos aspectos metodológicos, os autores utilizaram regressão linear 
+agrupada. Neste caso cabe salientar que essa abordagem não considera que efeitos
+fixos exerçam influência sobre as variáveis analisadas. Estudos com design 
+semelhante consideram a influência de efeitos fixos, como os de @Li2022, 
+@Bedford2023 e @Ye2023. Cabe ressaltar também que o estudo não menciona 
+verificação ou tratamento de questões como multicolinearidade, endogeneidade e 
+heterocedasticidade.
+  
+Os resultados obtidos apontaram que os indicadores de gerenciamento e estrutura
+acionária não exerceram efeito sobre o resultado, em contraponto à literatura 
+que demonstra que níveis mais elevados de governança proporcionam melhores 
+resultados. Já a variável relativa à responsabilidade social corporativa 
+apresentou efeito significativo e positivo. Ressalta-se, que neste estudo 
+também não foram encontradas evidências de que a crise ocasionada pela pandemia
+tenha influenciado em queda do desempenho.
+  
+Segundo os próprio autores, os resultados apresentaram um contrassenso em 
+relação à literatura, em que o atendimento a níveis mais elevados de governança
+influencia positivamente no desempenho. Apesar disso, o estudo de @Alencar2023 
+também encontrou um indício em seu estudo de que o aumento do ROE esteve ligado
+aos níveis mais baixos de governança. Pontua-se criticamente sobre esse estudo 
+a utilização de outros períodos considerados como de crise econômica, que não 
+foram claramente abordados, uma vez que o foco do estudo está na influência da
+pandemia sobre a relação entre governança e desempenho. Além disso, destaca-se 
+também a falta de clareza sobre como foram obtidos os índices que medem a 
+qualidade da governança com os *scores*.
+  
+@Brandao2024 realizou um estudo com o objetivo de analisar como o período da 
+crise causada pela pandemia influenciou nas estruturas de governança das 
+empresas brasileiras; além de analisar como essas estruturas influenciaram no
+desempenho. O autor abordou uma amostra de 156 empresas não financeiras listadas
+na B3, no período entre 2019 e 2022. Mais especificamente, no espectro da 
+governança, a análise se concentrou em como adoção de medidas recomendadas pelo
+IBGC, as estruturas internas de governança e a presença em determinados 
+segmentos de listagem impactou no valor de mercado das empresas da amostra.
+  
+A metodologia consistiu na construção de um sistema de pontuação baseado na 
+adesão a 44 ações preconizadas pelo código de melhores práticas de governança 
+corporativa do IBGC, formadas por cinco dimensões diferentes: acionistas, 
+conselho de administração, diretoria executiva, órgãos de fiscalização e 
+controle, e ética e conflitos de interesse. Com relação à estrutura interna de
+governança, diversas dimensões foram contidas em três variáveis através da 
+execução de uma análise de componentes principais, sendo elas: participação de
+minoritários (percentual de ações ordinárias em circulação e independência do 
+conselho); monitoramento (existência de comitê de auditoria, auditoria interna,
+conselho fiscal e percentual de conselheiros não pertencentes à diretoria); e 
+diversidade (percentual de mulheres no conselho de administração e diretoria, e
+ausência de dualidade). Além disso, as empresas foram segregadas de acordo com 
+seus segmentos de listagem: Tradicional, Nível 1, Bovespa Mais Nível 1, Nível 2,
+Bovespa Mais Nível 2 e Novo Mercado. Essas variáveis foram utilizadas como 
+independentes e, como variáveis dependentes e *proxies* do desempenho, foram 
+utilizados *Q de Tobin* e *Market-to-Book*. 
+
+Para análise dos dados, inicialmente foi utilizado o Teste de Wilcoxon para 
+avaliar a evolução das variáveis ao longo do tempo. Posteriormente, foi
+utilizado um modelo com efeitos aleatórios e, para lidar com a 
+heterocedasticidade as estimações foram processadas com erros-padrão robustos.
+Além disso, a fim de reduzir os efeitos de *outliers*, foi realizado um processo
+de *winsorização* dos dados. Para lidar com possíveis problemas de endogeneidade,
+o autor utilizou efeitos fixos de setor e ano, diferentes *proxies* para 
+qualidade de governança e valor da empresa, bem como defasagens temporais. 
+O teste VIF apresentou não haver multicolinearidade.
+  
+Primeiramente, as análises demonstram que todas as três dimensões de 
+governança analisadas tiveram um avanço no decorrer do período entre 2019 e 
+2022. As empresas mostraram maior adesão às práticas recomendadas pelo IBGC, 
+houve aumento no percentual médio do conselho, bem como na presença de mulheres
+dentro dessa estrutura, além do aumento de empresas participantes do 
+Novo Mercado, o nível mais alto de governança dentre todos os segmentos. 
+
+Com relação aos dois indicadores de desempenho, ambos apresentaram queda no 
+período, com maior proporção no ano de 2021. No ano de 2019, as três dimensões de 
+governança influenciaram positivamente no desempenho. Em 2020, apenas duas delas
+persisitiram, sendo que os segmentos de listagem passaram a não exercer efeito 
+positivo. Já nos anos de 2021 e 2022, nenhuma das dimensões de governança 
+exerceu efeito positivo sobre os índices de valor de mercado. Para @Brandao2024,
+tal resultado é um indício de que os mecanismos existentes podem não ter sido 
+suficientes para mitigar os efeitos negativos da pandemia.
+  
+O estudo conclui que, embora as empresas tenham se engajado na melhoria das 
+práticas de governança mediante os desafios proporcionados pela pandemia, no 
+decorrer de todo o tempo tais melhorias não foram suficientes para conter os 
+efeitos negativos da crise econômica. @Brandao2024 sugere que estudos futuros 
+analisem se as melhorias das estruturas e mecanismos de governança perduraram 
+no longo prazo, ou se foram uma medida de emergência frente à pandemia. Além 
+disso, propõe que outras dimensões relacionadas às estruturas de governança 
+sejam analisadas, como a remuneração e experiência de conselheiros e executivos.
+  
+O estudo de @Borges2024 foca na remuneração executiva e sua relação com o 
+desempenho. O objetivo dos autores foi investigar o impacto da pandemia na
+sensibilidade da remuneração executiva ao desempenho financeiro de um grupo de
+empresas listadas na B3. Para isso, eles utilizaram uma amostra com 193 empresas,
+no período de 2010 a 2022, com um total de 2496 observações. Mais 
+especificamente, os autores analisaram se houve alterações na relação entre o 
+desempenho, medido índices por contábeis, e a remuneração executiva.
+  
+Com relação aos aspectos metodológicos, as variáveis dependentes englobaram 
+remuneração fixa, variável e total. As variáveis explicativas foram as métricas
+de rentabilidade ROA e ROE. Além disso, foram utilizadas uma *dummy* referente 
+ao período da pandemia e tamanho e endividamento das empresas como variáveis de
+controle. Os autores segregaram os dados entre os períodos nomeados de pré-Covid 
+(2010 a 2019) e pós-Covid (2020-2022).
+  
+Comparando as médias, os autores apontam um aumento na remuneração no período da
+pandemia. Entretanto, na análise das regressões não foram encontradas evidências
+de alterações na sensibilidade da remuneração em relação ao desempenho. 
+@Borges2024 ponderam que os resultados apontam que a remuneração executiva não
+está fortemente vinculada ao desempenho, o que pode evidenciar a desconexão dos
+objetivos e da eficácia da remuneração como meio de incentivo.
+  
+Os autores evidenciam aspectos importantes não abordados na pesquisa, como 
+níveis de governança, que foi uma métrica utilizada por @Brandao2024, e setor
+de atuação. Destaca-se nesse caso a importância da incorporação do setor aos
+modelos, visto que diferentes setores reagiram de maneira distinta à crise. 
+Além disso, cabe pontuar que com relação aos aspectos metodológicos, na análise
+da evolução da remuneração durante todo período do estudo, os autores utilizaram
+apenas a variação média, sem realizar testes de diferença de média para 
+verificar a significância. Os autores também não apontam se e como foram 
+abordados testes para verificação dos pressupostos do modelo, bem como sobre 
+tratamento de endogeneidade.
+  
+Os trabalhos analisados mostram um panorama de pesquisa ainda bastante 
+incipiente no mercado brasileiro nos estudos que englobem remuneração, 
+governança corporativa e desempenho, no contexto em que aqui é proposto: 
+a pandemia de Covid. Os estudos de @Santos2023 e @Alencar2023
+se assemelham pelo fato de utilizarem apenas a listagem em segmentos como 
+indicadores de governança que expliquem a variação no desempenho, e os 
+resultados são inconclusivos. 
+  
+@Souza2023, em uma abordagem parecida à dos dois estudos supracitados, 
+utilizam a mesma métrica de governança para analisar a tempestividade na 
+divulgação de relatórios das empresas da B3. Apesar de terem encontrado 
+resultados consistentes, o estudo se limita a avaliar a divulgação de tais
+informações, sem investigar suas implicações. O estudo de @Prado2024 analisa
+mais dimensões da governança e sua influência sobre o desempenho, mas sem 
+evidenciar quais são esses mecanismos.
+  
+O trabalho de @Brandao2024 tem uma abordagem diferente dos demais. O autor 
+avaliou como a pandemia impactou no estado de mecanismos de governança e no 
+desempenho, e como governança e desempenho se relacionaram no período. 
+A respeito desse estudo, destaca-se que o autor encontrou evidências de que
+as empresas tiveram uma queda nos indicadores de desempenho (*Q de Tobin* e 
+*Market-to-Book*), contrastando com a evidência encontrada por @Prado2024, 
+de que o desempenho não foi afetado. Por fim, destaca-se que apenas o trabalho
+de @Borges2024 abordou a remuneração executiva, foco principal do presente 
+estudo. 
 
 
 
@@ -226,26 +1336,1741 @@ seção para conter um referencial teórico.
 # Metodologia {#sec-metodologia}
 
 
-Escreva aqui a seção sobre a metodologia
+O objetivo geral do estudo é analisar a relação entre desempenho das empresas 
+brasileiras e a remuneração excutiva, bem como verificar como a pandemia de 
+Covid-19 e mecanismos de governança corporativa influenciaram essa relação. 
+Trata-se de uma pesquisa de natureza quantitativa, e explicativa quanto aos 
+seus objetivos.
 
-Utilize as subseções que forem necessárias para detalhar os procedimentos 
-metodológicos adotados, incluindo informações sobre os dados utilizados.
+
+## Análise Descritiva
+
+Como etapa inicial da análise empírica, será conduzida análise descritiva 
+abrangente das variáveis de interesse. Esta análise incluirá estatísticas 
+descritivas (média, mediana, desvio-padrão, valores mínimo e máximo) 
+para todas as variáveis do estudo, permitindo caracterizar parcialmente o 
+comportamento da remuneração executiva, medidas de desempenho e 
+variáveis de governança corporativa ao longo do período amostral.
+
+Adicionalmente, será construído gráfico comparativo seguindo a 
+abordagem de @Bertrand2001, comparando a evolução 
+temporal da remuneração executiva média com indicadores agregados de 
+desempenho setorial e de mercado. Esta visualização permitirá 
+identificação preliminar de padrões de correlação temporal entre 
+remuneração e desempenho, fornecendo base para as análises econométricas 
+subsequentes. Além disso, serão elaboradas visualizações da variável 
+dependente e dos principais regressores ao longo do tempo para verificar 
+se há tendências ou quebras estruturais nos anos pandêmicos.
+
+## Modelagem econométrica e decomposição das Medidas de Desempenho
+
+### Modelagem econométrica
+
+A relação entre remuneração e desempenho é potencialmente endógena, o que 
+dificulta o estabelecimento de causalidade, dado que ambas as variáveis podem 
+ser influenciadas por fatores não observáveis [@Aguiar2017]. Essa endogeneidade
+pode decorrer, por exemplo, de simultaneidade - quando remuneração e desempenho
+se determinam mutuamente [@Azevedo2021] - ou de causalidade reversa, em que a 
+remuneração influencia o desempenho, em vez de ser influenciado por 
+ele [@Dutra2023].
+
+Os estudos brasileiros consultados que analisam os efeitos da pandemia têm 
+metodologias pouco sofisticadas neste aspecto, entretanto, existem trabalhos 
+em outros contextos
+na literatura nacional que analisam essa abordagem. Portanto, a escolha do 
+método
+a ser utilizado é pautada em trabalhos que analisem a relação entre remuneração 
+e medidas de desempenho no mesmo *design* deste estudo.
+
+Nesse contexto, em linha com trabalhos anteriores, propõe-se a utilização
+do Método dos Momentos Generalizados (*Generalized Method of Moments
+ - GMM - Sys*). O método foi utilizado em pesquisas semelhantes na literatura nacional,
+como nos trabalhos de @Chien2013, @Krauter2013, @Aguiar2017, @Azevedo2021 e 
+@Dutra2023.
+A utilização do *GMM - Sys* em pesquisas que relacionem essas variáveis pode auxiliar
+na mitigação de possíveis problemas de endogeneidade, oriundos de causas como
+omissão de variáveis, efeito *feedback* e causalidade reversa [@Chien2013; 
+@Dutra2023]. Assim como nos trabalhos de @Chien2013, @Krauter2013, @Aguiar2017 
+e @Dutra2023, será utilizada defasagem de primeira ordem na variável resposta.
+
+Foram desenvolvidos também modelos sob os métodos dos 
+Mínimos Quadrados Ordinários (MQO) e Efeitos Fixos (EF), a fim de identificar 
+se os modelos estáticos introduzem viés aos resultados, devido à presunção de que
+a relação entre remuneração e desempenho seja endógena, com base no trabalho de 
+@Wintoki2012.
+
+Os modelos foram gerados utilizando duas estruturas, uma (equação 1) interagindo
+a *dummy* de Covid-19 com o desempenho, a fim de verificar se a influência da performance
+foi alterada no período da pandemia; e um segundo modelo (equação 2) com 
+interação tripla, contendo a performance, a *dummy* de Covid-19 e a variável que
+representa a concentração acionária em posse do maior controlador (representando
+uma *proxy* de governança):
+
+$$
+y_{it} = \beta_0 + \beta_1y_{it-1} + \beta_2 perf_{it} + \beta_3 Covid_t + 
+\beta_4 Cons_{it} + \beta_5 Contr_{it}
+$$
+$$
+ + \beta_6 Tam_{it} + \beta_7 (perf_{it} * Covid_t) + \alpha_i + \gamma_t + \epsilon_{i,t} \tag{1}
+$$
+
+A equação 2 mantém estrutura semelhante, adicionando a variável $Contr_{it}$ 
+à interação, para testar o efeito de uma medida de governança sobre a relação:
+
+$$
+y_{it} = \beta_0 + \beta_1y_{it-1} + \beta_2 perf_{it} + \beta_3 Covid_t + 
+\beta_4 Cons_{it} + \beta_5 Contr_{it}
+$$
+$$
+ + \beta_6 Tam_{it} + \beta_7 (perf_{it} * Covid_t * Contr_{it}) + \alpha_i + \gamma_t + \epsilon_{i,t} \tag{2}
+$$
+
+Em ambas equações, $y_{it}$ representa o logaritmo da remuneração total em $t$; $\beta_0$ o 
+intercepto; $y_{it-1}$ é o *lag* da variável dependente; $perf_{it}$ representa o 
+desempenho em $t$, assumindo tanto o retorno contábil medido pelo RNOA, quanto
+o retorno acionário, além de ser segregado entre desempenho de mercado, de setor
+e idiossincrático, conforme decomposições expostas na próxima subseção. $Covid_t$
+é uma *dummy* que assume um para os anos de 2020, 2021 e 2022; $Cons_{it}$
+representa o número de membros do conselho de administração; $Contr_{it}$ é o
+percentual de ações ordinárias em posse do maior acionista controlador; $Tam_{it}$
+é o tamanho da empresa, medido pelo logaritmo ativo total; $\alpha_i$ e $\gamma_t$ são,
+respectivamente, efeitos fixos por firma e tempo; e $\epsilon_{i,t}$ é o termo
+de erro da regressão.
+
+Cabe ressaltar que a performance ($perf_{it}$) assumirá diferentes indicadores
+em cada regressão, sendo: RNOA de mercado, RNOA de setor
+e RNOA idiossincrático, conforme decomposições apresentadas na próxima
+subseção. Da mesma forma, nas análises sobre o retorno acionário, $perf_{it}$
+assumirá: retorno de mercado, retorno de setor e
+retorno idiossincrático.
+
+A estrutura econométrica proposta segue a formulação clássica de modelos 
+lineares com efeitos fixos para dados em painel, conforme discutido 
+por [@wooldridge2010] e [@baltagi2021], permitindo controlar a 
+heterogeneidade não observável entre empresas e por choques comuns a 
+todas as empresas em determinados períodos.
+
+A significância estatística será avaliada utilizando níveis 
+convencionais (1%, 5% e 10%) e a significância prática será discutida 
+em termos de magnitude dos coeficientes estimados e das estimativas 
+dos intervalos de confiança obtidos para os principais parâmetros. Além disso,
+Os erros-padrão serão robustos à heterocedasticidade e agrupados 
+(*clustered*) no nível da empresa para controlar possível 
+correlação serial dentro das unidades observacionais.
+
+### Decomposição das Medidas de Desempenho
+
+A estratégia empírica baseia-se na decomposição do desempenho empresarial 
+em componentes relativos, seguindo a metodologia de @Jackson2018
+para segregar os desempenhos contábil e acionário entre retorno explicado pelo 
+mercado, pelo setor e desempenho da própria empresa. Os setores são divididos
+conforme classificação dos setores econômicos da B3.
 
 
+A estratégia de decomposição de desempenho é utilizada em trabalhos clássicos sobre 
+*pay for luck*, como @Bertrand2001 e @Garvey2006, com objetivo semelhante
+ao do presente trabalho, apesar de os autores não explicitarem com tanta ênfase
+a forma pela qual fazem a decomposição. O trabalho de @Jackson2018, apesar de
+ter um objetivo distinto, utiliza a lógica de decomposição, explicitando como o
+desempenho contábil é segregado em três fatores (desempenho de mercado, de setor
+e idiossincrático); sendo esse último a principal referência metodológica da presente
+pesquisa no que se refere à decomposição dos indicadores.
 
+#### Decomposição do retorno contábil
+
+Como indicador de desempenho contábil, será utilizado o Retorno sobre Ativos 
+Operacionais Líquidos (*Return on Net Operating Assets* - RNOA), conforme 
+cálculo demonstrado no trabalho de @Jackson2018:
+
+$$
+RNOA_{i,t} = \frac{OIADPQ_{i,t}}{NOA_{i,t}},\tag{3}
+$$
+
+onde OIADPQ - *Operating Income After Depreciation* (Resultado operacional após 
+depreciação) e NOA - *Net Operation Assets* (Ativos operacionais líquidos).
+
+A decomposição do RNOA segue o procedimento de @Jackson2018, 
+isolando os componentes de mercado, setorial e específico da firma através 
+das seguintes etapas:
+
+1. Cálculo do RNOA de mercado, excluindo a empresa $i$:
+
+$$
+RNOA^M_{t} = \frac{\sum (OIADPQ_{t}) - OIADPQ_{i,j,t}}{\sum (NOA_{t}) - 
+NOA_{i,j,t}},\tag{4}
+$$
+
+2. Cálculo do RNOA setorial excluindo a empresa $i$:
+
+$$
+RNOA^I_{j,t} = \frac{\sum (OIADPQ_{j,t}) - OIADPQ_{i,j,t}}{\sum (NOA_{j,t}) - 
+NOA_{i,j,t}},\tag{5}
+$$
+
+
+3. Regressão para isolar o retorno setorial:
+
+$$
+RNOA^I_{j,t} = \beta_0 + \beta_1 RNOA^M_t + \epsilon_{j,t},\tag{6}
+$$
+
+o RNOA de setor é regredido sobre o RNOA de mercado, de forma que o resíduo
+da regressão seja assumido como a rentabilidade do setor não explicada 
+pelos efeitos do mercado.
+
+4. Estimação da sensibilidade do retorno individual aos retornos de setor e 
+mercado:
+
+$$ 
+RNOA_{i,j,t} = \beta'_0 + \beta'_1\hat{\epsilon_{j,t}} + \beta'_2RNOA^M_t + 
+\epsilon'_{i,j,t},\tag{7}
+$$
+
+onde $\beta'_1$ é a sensibilidade ao retorno do setor e $\beta'_2$ é a 
+sensibilidade ao retorno de mercado.
+
+Posteriormente, após a obtenção dos betas, são estimados os três componentes de 
+desempenho:
+
+$$
+MktRNOA_{i,j,t} = \hat{\beta'_2} * RNOA^M_t,\tag{8}
+$$
+
+$$
+IndRNOA_{i,j,t} = \hat{\beta'_1} * \hat{\epsilon_{j,t}},\tag{9}
+$$
+
+$$
+IdiosRNOA_{i,j,t} = RNOA_{i,j,t} - MktRNOA_{i,j,t}- IndRNOA_{i,j,t},\tag{10}
+$$
+
+sendo $MktRNOA_{i,j,t}$ o retorno contábil relativo ao mercado, $IndRNOA_{i,j,t}$ 
+rentabilidade relativa ao setor e $IdiosRNOA_{i,j,t}$ a rentabilidade 
+idiossincrática da firma.
+
+
+#### Decomposição do retorno acionário
+
+A segunda variável de desempenho utilizada é o retorno acionário. A lógica de
+decomposição é a mesma utilizada no RNOA, adaptada com base no trabalho de @Jackson2018.
+Entretanto, cabe ponderar que eles não utilizam o retorno acionário como variável de
+qualquer medida em seu trabalho. No presente trabalho, o retorno acionário é 
+proposto como um item de robustez à análise.
+
+O retorno acionário, como uma medida de desempenho relacionada à remuneração, é
+uma variável utilizada em diversos trabalhos clássicos nesse campo, como @Jensen1990,
+@Bertrand2001 e @Garvey2006. No presente trabalho, o retorno é ponderado pelo ativo total; 
+essa ponderação é utilizada por @Bertrand2001, e tem o objetivo de capturar o peso
+de empresas de diversas dimensões. Considerando $R_t$ como o retorno acionário 
+no período $t$ e 
+$AT_t$ como o ativo total no período $t$, têm-se os seguintes passos para 
+desagregação dos indicadores:
+
+1. Cálculo do retorno acionário de mercado, excluindo a firma $i$:
+
+$$
+R^M_{t} = \frac{\sum R_{t} . AT_{t} - R_{i,t} . AT_{t}}{\sum (AT_{t}) 
+- AT_{i,t}},\tag{11}
+$$
+
+onde $R^M_{t}$ é o retorno de mercado ponderado pelo ativo total
+, excluindo a firma $i$;
+
+
+2. Cálculo do retorno acionário setorial, excluindo a firma $i$: 
+
+$$
+R^I_{j,t} = \frac{ \sum (R_{j,t} \cdot AT_{j,t}) - R_{i,j,t} \cdot AT_{i,j,t}
+}{\sum (AT_{j,t}) - AT_{i,j,t}},\tag{12}
+$$
+
+$R^I_{j,t}$ é o retorno do setor $j$ ponderado pelo ativo total, excluindo
+a firma $i$;
+
+3. Regressão para isolar o retorno setorial:
+
+$$
+R^I_{j,t} = \beta_0 + \beta_1 R^M_t + \epsilon_{j,t},\tag{13}
+$$
+
+O retorno do setor $R^I_{j,t}$ é regredido sobre o retorno de mercado $R^M_t$,
+de forma que o resíduo da regressão $\epsilon_{j,t}$ assume o componente do retorno
+setorial não explicado pelo mercado.
+
+4. Regressão para estimar a sensibilidade da rentabilidade individual às variações
+de setor e mercado: 
+
+$$
+R_{i,j,t} = \beta'_0 + \beta'_1 \hat{\epsilon}_{j,t} + \beta'_2 R^M_{t} + 
+\epsilon'_{i,j,t},\tag{14}
+$$
+
+A equação acima estima a sensibilidade da rentabilidade individual $R_{i,j,t}$ 
+às variações dos retornos setorial e de mercado. A rentabilidade da firma 
+é regredida contra o componente residual do setor $\hat{\epsilon}_{j,t}$ e o
+retorno de mercado $R^M_{t}$. Os coeficientes $\beta'_1$ e $\beta'_2$
+capturam a exposição do desempenho da firma aos choques de setor e de mercado.
+
+Após a estimação dos betas, são estimados os três componentes de desempenho 
+medidos pelo retorno acionário:
+
+$$MktR_{i,j,t} = \hat{\beta}'_2 .R^M_t, \tag{15}$$
+
+$$IndR_{i,j,t} = \hat{\beta}'_1 . \hat{\epsilon}_{j,t},\tag{16}$$
+
+$$IdiosR_{i,j,t} = R_{i,j,t} - MktR_{i,j,t} - IndR_{i,j,t},\tag{17}$$
+
+onde: $MktR_{i,j,t}$ é o retorno acionário relativo de mercado, $IndR_{i,j,t}$
+é o retorno acionário relativo por setor, e $IdiosR_{i,j,t}$ é o 
+retorno idiossincrático da firma, não explicado pelas variações de mercado e 
+setor.
+
+O quadro abaixo apresenta um resumo das variáveis constantes no modelo 
+econométrico, bem como autores utilizados como referências que utilizaram as 
+mesmas métricas e justifiquem a aplicação neste estudo.
+
+```{r}
+#| label: tbl-variaveis
+#| tbl-cap: "Descrição das variáveis utilizadas e principais referências"
+#| echo: false
+#| warning: false
+
+library(kableExtra)
+library(dplyr)
+
+# Criando a tabela
+tabela_variaveis <- data.frame(
+  Variavel = c("$y$  (Variável dependente)", "$perf$", "$Covid$", "$Cons$", "$Contr$", "$Tam$"),
+  Descricao = c(
+    " Logaritmo da remuneração total média da diretoria executiva.", "\\textbf{Retorno contábil}: de mercado (equação 8), de setor (equação 9) e idiossincrático (equação 10). \\textbf{Retorno acionário}: de mercado (equação 15), de setor (equação 16) e idiossincrático (equação 17).", "Variável $dummy$ que assume 1 para o período da pandemia e 0 caso contrário.", "Número de membros do conselho de administração", "Percentual de ações ordinárias em posse do maior acionistra controlador. \\textbf{*Caso não haja um acionista controlador, a variável assume 0}", "Tamanho da empresa, representado pelo logaritmo dos ativos totais."
+  ),
+  Referencias = c(
+    "Li e Yang (2022); Bedford et al. (2023); Ye, Chen e Kelly (2023); Borges et al. (2024); Abrar-ul-haq (2025).", "Bertrand e Mullainathan (2001);  Garvey e Milbourn (2006); Jackson, Plumlee e Rountree (2018)", "Ye, Chen e Kelly (2023); Muzata e Marozva (2023); Danysh-Hashemi (2023); Borges et al. (2024).", "Jin, Gao e Xiao (2021); Bedford et al. (2023); Özer, Aktaş e Merter (2024); Brandão (2024).; Abrar-ul-haq (2025).", "Bertrand e Mullainathan (2001).", " Jin, Gao e Xiao (2021); Ye, Chen e Kelly (2023); Danysh-Hashemi (2023); Prado et al. (2024)."
+  )
+)
+
+# Gerando a tabela com kableExtra
+tabela_variaveis %>%
+  kbl(
+    col.names = c("Variável", "Descrição", "Referências"),
+    format = "latex",
+    escape = FALSE,
+    align = c("p{3cm}", "p{6cm}", "p{5.5cm}"),
+    booktabs = FALSE,
+    longtable = TRUE
+  ) %>%
+  kable_styling(
+    font_size = 11,
+    full_width = FALSE,
+    latex_options = "basic"
+  ) %>%
+  column_spec(1, width = "3cm") %>%
+  column_spec(2, width = "6cm") %>%
+  column_spec(3, width = "5.5cm") %>%
+  row_spec(0, bold = TRUE)
+
+```
+
+
+## Processamento e Análise dos Dados
+
+Os procedimentos de importação e preparação dos dados, são
+realizadas utilizando a linguagem R [@rlanguage]. Para execução
+dos modelos foi utilizado o *software* Stata, executando as funções reg para as 
+estimativas de MQO, xtreg para efeitos fixos e
+e xtabond2 para GMM. As estratégias 
+econométricas adotadas seguem as recomendações 
+metodológicas consolidadas na literatura sobre dados em painel, 
+conforme apresentado em [@wooldridge2010; @baltagi2021].
+  
+## Dados
+
+As amostras são compostas por todas as empresas não financeiras da B3 que tiverem 
+os dados necessários para a realização do estudo disponíveis no período de 2018 
+a 2024. O período inicial se justifica pelo fato de que em 2018 a Comissão 
+de Valores Mobiliários (CVM) conseguiu na justiça que as empresas de capital 
+aberto tivessem que divulgar as remunerações de seus executivos 
+[@Schincariol2018]. E o período final se refere ao último ano completo com dados
+disponíveis.
+
+Salienta-se também neste aspecto que a pesquisa visa abordar o período 
+pós-Covid, a fim de identificar os efeitos de médio/longo prazo da pandemia no 
+objeto de estudo. Coincidentemente, o período engloba dois anos pré-pandemia 
+(2018 e 2019), três anos da pandemia (2020 a 2022) e dois anos pós-pandemia 
+(2023 e 2024), uma vez que o fim da pandemia foi decretado em dezembro de 2022 
+[@Saude2022]. Portanto, tem-se um equilíbrio de períodos fora da pandemia para 
+análise.
+
+Com relação à construção das bases dados, para a construção da base de retorno
+contábil, a seleção inicial consistiu em 367 empresas com dados contábeis
+disponíveis na Economatica. Com relação ao retorno acionário, a amostra inicial
+continha 502 unidades. Neste caso, não se pode referir como empresas, pois existem
+empresas repetidas com classes de ações diferentes, que foram mantidas para a
+a análise.
+
+Além das empresas financeiras, também foram excluídas empresas sob as seguintes
+condições: empresas em recuperação judicial; empresas com dados faltantes de 
+qualquer variável em qualquer ano; empresas que eram únicas em seu setor 
+(pois inviabilizaria o cálculo do retorno setorial com o método de *leave one out*). 
+Ao final, a base de dados para análise com o
+RNOA conteve 92 empresas durante sete anos, em um painel balanceado com 644 
+observações; e a base com retorno acionário foi composta por 145 classes de 
+ações de diferentes empresas durante os sete anos, compondo um painel balanceado
+com 1015 observações. Cabe salientar que a disposição dos dados é anual. 
+A remuneração total média é obtida dividindo a remuneração total anual pelo 
+número de membros remunerados, conforme dados disponibilizados nos formulários 
+de referência da CVM.
+
+Para a construção da variável de controle acionário (percentual de ações ordinárias em
+posse do maior acionista controlador), foi considerada a informação da própria
+CVM sobre a empresa possuir um controlador, em uma coluna com valores "Sim" e 
+"Não". Para empresas com o item "Possui controlador" igual a "Sim", foi considerado
+o percentual de ações ordinárias em posse do maior acionista; quando a variável
+assume "Não", o valor é igual a zero, considerando que a empresa não possui um
+acionista controlador.
+
+Os dados financeiros das empresas foram coletados através da plataforma Economatica. 
+Dados referentes à remuneração executiva, dados referentes ao conselho e demais 
+estruturas de governança foram coletados nos formulários de referência da @CVM.
+Para procedimento das análises foram utilizados os *softwares* RStudio e Stata.
 
 # Resultados e Discussão {#sec-resultados}
 
-Escreva aqui a seção de resultados e discussão.
+## Análise descritiva
+
+A seção de análise descritiva apresenta medidas de estatística descritiva de 
+praxe em trabalhos dessa natureza. Além das tabelas com estatística descritiva,
+são apresentados também histogramas com frequência das variáveis, gráficos de 
+tendência e matrizes de correlação, em amostras separadas - uma para o RNOA, outra
+para o retorno acionário.
+
+
+A Tabela 5.1 apresenta as estatísticas descritivas da amostra do retorno
+contábil - RNOA. A estatísticas descritivas denotam certa heterogeneidade na amostra.
+A média da remuneração no período foi de 4,19 milhões, com uma mediana de 
+2,81 milhões, indicando assimetria à direita; constatação reforçada pelo 
+desvio-padrão (4,39) superior à média. A remuneração máxima no período foi de 
+38,74 milhões em um ano, enquanto a mínima foi de 1849,50 reais (apresentado como 0,00
+na tabela por razões de escala).
+
+O conselho médio possui oito membros, com mínimo de três e máximo de 22. Com 
+relação ao percentual de ações em posse do maior controlador, a média foi de 
+35,81%, próxima à mediana de 36,21%. O RNOA médio foi de 0,17%, com mínimo de -2,32%
+e máximo de 3,09%. A média do ativo total é de 38,86 milhões, e os valores mínimo
+(0,08 milhões) e máximo (1124,80 milhões) evidenciam a heterogeneidade da amostra.
+
+```{r}
+# Análises descritivas básicas utilizando  a função describe do pacote psych
+
+rnoa <- readRDS("C:/repositorios/dissertacao_igor_neves/dados-limpos/painel_Rnoa_final.rds")
+
+library(dplyr)
+library(tidyr)
+library(knitr)
+
+options(scipen = 999)
+
+# Seleciona os dados apresentados
+
+dados_sel <- rnoa |>
+  select(Remuneracao_Total_Media, Numero_Membros, Perc_Controlador, Rnoa_firm, Ativo_Total) |>
+
+  # Altera a escala da remuneração e ativo total para milhões
+  
+  mutate(
+    Remuneracao_Total_Media = Remuneracao_Total_Media / 1e6,
+    Ativo_Total = Ativo_Total / 1e6
+  )
+
+# Especificações da tabela
+
+tabela <- dados_sel |>
+  summarise(
+    across(
+      everything(),
+      list(
+        N = ~sum(!is.na(.)),
+        Media = ~mean(., na.rm = TRUE),
+        DP = ~sd(., na.rm = TRUE),
+        Mediana = ~median(., na.rm = TRUE),
+        Min = ~min(., na.rm = TRUE),
+        Max = ~max(., na.rm = TRUE)
+      )
+    )
+  ) |>
+  pivot_longer(everything()) |>
+  separate(name, into = c("Variavel", "Estatistica"), sep = "_(?=[^_]+$)") |>
+  pivot_wider(names_from = Estatistica, values_from = value) |>
+  mutate(across(where(is.numeric), ~round(., 2)))
+
+# Altera os nomes para apresentação
+
+tabela$Variavel <- c(
+  "Remuneração total (milhões de reais)",
+  "Tamanho do conselho",
+  "Ações ON em posse do controlador (%)",
+  "RNOA (%)",
+  "Ativo Total (milhões de reais)"
+)
+
+#| label: tbl: est_rnoa
+#| tbl-cap: "Estatísticas descritivas - Amostra do RNOA"
+
+kable(tabela, caption = "Estatísticas descritivas - Amostra do RNOA")
 
 
 
+```
+
+
+
+
+
+A Tabela 5.2 apresenta as estatísticas descritivas das mesmas variáveis, porém
+com uma amostra diferente, definida para analisar o retorno acionário. A média
+da remuneração foi menor no período em relação à amostra do RNOA, com um valor 
+de 3,63 milhões, superior à mediana de 2,43 milhões. Os valores máximo 
+(38,74 milhões) e mínimo (1849,50) se repetem, evidenciando a heterogeneidade
+dos pacotes de remuneração.
+
+O tamanho médio do conselho é de 7,76, com mínimo de dois e máximo de 22. A média
+do percentual de ações em posse do maior acionista controlador é de 41,79%. O 
+retorno teve um valor médio de 17,23%. Chama atenção a amplitude do retorno, com
+mínimo de -97,78% e máximo de 1767,53%. E o ativo total confirma a heterogeneidade
+da amostra. O desvio-padrão (123,05) supera em muito a média (39,06), enquanto
+os valores mínimo (0,02) e máximo (1124,80) denotam a amplitude no tamanho das
+empresas representado pelos seus ativos.
+
+
+```{r}
+retorno <- readRDS("C:/repositorios/dissertacao_igor_neves/dados-limpos/painel_retorno_final.rds")
+
+library(dplyr)
+library(tidyr)
+library(knitr)
+
+options(scipen = 999)
+
+# Seleciona os dados que serão tabelados
+
+dados_sel <- retorno |>
+  select(Remuneracao_Total_Media, Numero_Membros, Perc_Controlador, Retorno, Ativo_Total) |>
+
+  # Altera a escala da remuneração e do ativo total para milhões
+  
+  mutate(
+    Remuneracao_Total_Media = Remuneracao_Total_Media / 1e6,
+    Ativo_Total = Ativo_Total / 1e6
+  )
+
+# Especificações da tabela
+
+tabela <- dados_sel |>
+  summarise(
+    across(
+      everything(),
+      list(
+        N = ~sum(!is.na(.)),
+        Media = ~mean(., na.rm = TRUE),
+        DP = ~sd(., na.rm = TRUE),
+        Mediana = ~median(., na.rm = TRUE),
+        Min = ~min(., na.rm = TRUE),
+        Max = ~max(., na.rm = TRUE)
+      )
+    )
+  ) |>
+  pivot_longer(everything()) |>
+  separate(name, into = c("Variavel", "Estatistica"), sep = "_(?=[^_]+$)") |>
+  pivot_wider(names_from = Estatistica, values_from = value) |>
+  mutate(across(where(is.numeric), ~round(., 2)))
+
+# Altera os nomes da apresentação
+tabela$Variavel <- c(
+  "Remuneração total (milhões de reais)",
+  "Tamanho do conselho",
+  "Ações ON em posse do controlador (%)",
+  "Retorno acionário",
+  "Ativo Total (milhões de reais)"
+)
+
+kable(tabela, caption = "Estatísticas descritivas - Amostra do Retorno Acionário")
+```
+
+
+A **Figura 5.1** apresenta um histograma com a distribuição de frequência das 
+variáveis utilizadas nos modelos do RNOA. Como evidenciado nas tabelas com
+estatísticas descritivas, algumas variáveis apresentam assimetria. A remuneração
+e o ativo total apresentam assimetria à direita, indicando heterogeneidade 
+estrutural, indicando que a maior parte das empresas possui um porte menor.
+
+As variáveis de retorno contábil representadas pelo RNOA apresentam maior simetria,
+com uma maior frequência em torno de zero. O tamanho do conselho apresenta uma maior
+concentração entre cinco e dez, apesar de apresentarem ocorrências abaixo de cinco
+e acima de dez. Já, a variável que representa o percentual de ações em posse do
+controlador, além de possuir uma grande dispersão de dados com relação aos 
+percentuais, também apresenta uma elevada ocorrência de empresas sem controlador,
+representado pelo número zero no histograma.
+
+```{r}
+library(tidyverse)
+
+
+rnoa %>%
+  mutate(Remuneracao_Total_Media = Remuneracao_Total_Media / 1e6,
+         Ativo_Total = Ativo_Total / 1e6) %>%
+  pivot_longer(
+    cols = c(
+      Remuneracao_Total_Media,
+      Rnoa_firm,
+      Numero_Membros,
+      Perc_Controlador,
+      Ativo_Total,
+      Mkt_Rnoa,
+      Ind_Rnoa,
+      Idios_Rnoa
+    )
+  ) %>%
+  ggplot(aes(x = value)) +
+  
+  geom_histogram(bins = 30,
+                 fill = "steelblue",
+                 alpha = 0.7) +
+  
+  facet_wrap(~ name, scales = "free", labeller = as_labeller(
+    c(
+      Remuneracao_Total_Media = "Remuneração (milhões)",
+      Numero_Membros = "Tamanho do conselho",
+      Perc_Controlador = "% Controlador",
+      Ativo_Total = "Ativo Total (milhões)",
+      Mkt_Rnoa = "RNOA de Mercado",
+      Ind_Rnoa = "RNOA de Indústria",
+      Idios_Rnoa = "RNOA Idiossincrático",
+      Rnoa_firm = "RNOA por empresa"
+    )
+  )) +
+  
+  labs(x = "Valores", y = "Frequência") +
+  
+  theme_minimal() +
+  theme(
+    plot.background = element_rect(color = "black", fill = NA) # borda externa
+  )
+```
+
+
+A **Figura 5.2** apresenta os histogramas das variáveis da base de dados da análise
+do retorno acionário, e a ditribuição dos dados é semelhante à da encontrada na
+base do RNOA. O ativo total apresenta forte assimetria à direita, indicando que
+poucas empresas possuem um tamanho muito grande. O retorno idiossincrático também
+apresenta assimetria à direita, assim como o retorno por empresa, que é o retorno
+individual de cada empresa, sem decomposição.O retorno de indústria apresenta-se
+bem mais simétrico, mais próximo de uma distribuição normal; enquanto o retorno 
+de mercado apresenta-se menos simétrico, apesar da distribuição centrada em zero
+e de poucos valores extremos.
+
+As variáveis de governança apresentam configuração bem semelhante às apresentadas
+na base do RNOA, com uma distribuição bastante irregular e diversa. Grande parte
+das empresas têm entre cinco e dez conselheiros, e os percentuais de controle
+mais frequentes são zero (ausência de controle) e 50% das ações ordinárias.Por fim,
+a remuneração apresenta assimetria à direita, indicando que poucas empresas pagam
+remunerações excessivamente altas em relação à média.
+
+
+
+```{r}
+library(tidyverse)
+
+
+retorno %>%
+  mutate(Remuneracao_Total_Media = Remuneracao_Total_Media / 1e6,
+         Ativo_Total = Ativo_Total / 1e6) %>%
+  pivot_longer(
+    cols = c(
+      Remuneracao_Total_Media,
+      Retorno,
+      Numero_Membros,
+      Perc_Controlador,
+      Ativo_Total,
+      Mkt_Retorno,
+      Ind_Retorno,
+      Idios_Retorno
+    )
+  ) %>%
+  ggplot(aes(x = value)) +
+  
+  geom_histogram(bins = 30,
+                 fill = "steelblue",
+                 alpha = 0.7) +
+  
+  facet_wrap(~ name, scales = "free", labeller = as_labeller(
+    c(
+      Remuneracao_Total_Media = "Remuneração (milhões)",
+      Numero_Membros = "Tamanho do conselho",
+      Perc_Controlador = "% Controlador",
+      Ativo_Total = "Ativo Total (milhões)",
+      Mkt_Retorno = "Retorno de Mercado",
+      Ind_Retorno = "Retorno de Indústria",
+      Idios_Retorno = "Retorno Idiossincrático",
+      Retorno = "Retorno por empresa"
+    )
+  )) +
+  
+  labs(x = "Valores", y = "Frequência") +
+  
+  theme_minimal() +
+  theme(
+    plot.background = element_rect(color = "black", fill = NA) # borda externa
+  )
+```
+
+A **Figura 5.3** apresenta gráficos de tendência temporal da remuneração e dos
+indicadores de desempenho. Cabe ressaltar que o indicador "RNOA médio" é a 
+a média simples da rentabilidade das empresas, sem desagregação. Nota-se que
+a remuneração média seguiu tendência de crescimento durante o período, com leve
+estabilidade estabilidade entre os anos de 2021 e 2022. Entretanto, os indicadores
+de desempenho, representados pelo retorno contábil neste caso, apresentaram 
+comportamento volátil no período.
+
+O RNOA de mercado apresentou forte crescimento entre 2020 e 2021, seguido de uma 
+queda constante até o fim do período analisado, evidenciando uma queda da
+rentabilidade operacional do mercado no período pós pandemia. O RNOA médio 
+comportamento semelhante, com leve crescimento até 2022 e posterior queda até o
+final do período, apesar de apresentar um variações menos bruscas. O RNOA de 
+indústria e idiossincrático apresentam comportamentos mais voláteis e 
+sem tendência definida, o que pode evidenciar a influência de fatores específicos
+sobre o desempenho das empresas e setores.
+
+
+
+
+```{r}
+# Constrói dois gráficos de tendência temporal para analisar o comportamento da remuneração e do Rnoa
+
+library(ggplot2)
+
+rnoa %>%
+  group_by(Ano) %>%
+  summarise(
+    `Remuneração média` = mean(Remuneracao_Total_Media, na.rm = TRUE),
+    `RNOA médio` = mean(Rnoa_firm, na.rm = TRUE),
+    `RNOA de mercado` = mean(Mkt_Rnoa, na.rm = TRUE),
+    `RNOA de indústria` = mean(Ind_Rnoa, na.rm = TRUE),
+    `RNOA idiossincrático` = mean(Idios_Rnoa, na.rm = TRUE)
+  ) %>%
+  pivot_longer(-Ano, names_to = "Variavel", values_to = "Valor") %>%
+  ggplot(aes(Ano, Valor, group = Variavel)) +
+  geom_line() +
+  facet_wrap(~Variavel, scales = "free_y") +
+  theme_minimal() +
+theme(
+  plot.background = element_rect(color = "black", fill = NA, linewidth = 0.5)
+)
+
+```
+
+A **Figura 5.4** apresenta os a tendência da remuneração executiva e o retorno
+acionário no período. Apesar de movimentos diferentes da performance no decorrer
+dos anos, um padrão se mantém: a persistência do crescimento da remuneração e 
+volatilidade do desempenho. Se na amostra do RNOA a remuneração apresentou certa
+estabilidade entre 2021 e 2022, na amostra do retorno acionário a remuneração teve
+um maior crescimento nesse período.
+
+O retorno de mercado apresentou forte oscilação, com queda acentuada de 2019 a 2020,
+seguida por recuperação até 2023 e uma nova queda brusca no ano de 2024. O retorno
+médio, que é a média aritmética simples dos retornos, apresentou comportamento
+semelhante, com destacadas quedas nos anos de 2020 e 2024. O retorno idiossincrático
+apresentou forte oscilação, iniciando a trajetória da série com média negativa,
+reguperação até o ano de 2020 e uma posterior e bruta queta até o ano de 2022. O
+mesmo é observado no retorno de indústria, com trajetória ascendente no início 
+da série e uma queda acentuada no período da pandemia.
+
+
+```{r}
+# Constrói dois gráficos de tendência temporal para analisar o comportamento da remuneração e do retorno
+
+library(ggplot2)
+
+retorno %>%
+  group_by(Ano) %>%
+  summarise(
+    `Remuneração média` = mean(Remuneracao_Total_Media, na.rm = TRUE),
+    `Retorno médio` = mean(Retorno, na.rm = TRUE),
+    `Retorno de mercado` = mean(Mkt_Retorno, na.rm = TRUE),
+    `Retorno de indústria` = mean(Ind_Retorno, na.rm = TRUE),
+    `Retorno idiossincrático` = mean(Idios_Retorno, na.rm = TRUE)
+  ) %>%
+  pivot_longer(-Ano, names_to = "Variavel", values_to = "Valor") %>%
+  ggplot(aes(Ano, Valor, group = Variavel)) +
+  geom_line() +
+  facet_wrap(~Variavel, scales = "free_y") +
+  theme_minimal() +
+theme(
+  plot.background = element_rect(color = "black", fill = NA, linewidth = 0.5)
+)
+    
+```
+
+A **Figura 5.5** apresenta a matriz de correlação dos dados presentes na amostra
+do RNOA. Em geral, a matriz demonstra a ocorrência de correlações majoritariamente
+fracas e moderadas entre as variáveis. A maior correlação é entre a remuneração
+e o ativo total, com um coeficiente de 0,52, sendo uma evidência de que empresas
+maiores pagam maiores salários. O tamanho do conselho também apresentou correlação
+positiva com a remuneração (0,27), indicando que empresas com conselhos maiores
+pagam uma maior remuneração. Em contrapartida, a concentração acionária 
+(% controlador) apresentou correlação negativa (-0,25) com a remuneração.
+
+Com relação às variáveis de desempenho contábil, essas apresentaram relação quase nula
+com a remuneração executiva; um indício de que remuneração e desempenho não
+estiveram alinhados. Destaca-se ainda a correlação mais elevada entre o RNOA
+idiossincrático e RNOA médio (média simples do retorno contábil), de 0,55,
+sendo um indício de que componentes específicos da firma contribuem para o 
+desempenho agregado das empresas. Destaca-se ainda a correlação forte e negativa
+(-0,72) do RNOA idiossincrático com o RNOA de mercado.
+
+Os resultados apresentam relação quase inexistente entre o desempenho contábil e
+a remuneração executiva. as variáveis de governança apresentam relações distintas,
+enquanto o tamanho da empresa, representado pelo ativo total, apresenta maior 
+relação com a remuneração.
+
+
+```{r}
+# Constrói matriz de correlação entre as variáveis
+
+correlacao_Rnoa <- rnoa %>%
+  select(
+    Remuneracao_Total_Media_log,
+    Rnoa_firm,
+    Perc_Controlador,
+    Numero_Membros,
+    Ativo_Total_log,
+    Mkt_Rnoa,
+    Ind_Rnoa,
+    Idios_Rnoa
+  ) %>%
+  cor()
+
+colnames(correlacao_Rnoa) <- c ("Remuneração média (log)", "Rnoa médio", "% Controlador",
+                                "Tamanho do conselho", "Ativo Total (log)", 
+                                "Rnoa de mercado", "Rnoa de indústria", 
+                                "Rnoa idiossincrático")
+
+rownames(correlacao_Rnoa) <- colnames(correlacao_Rnoa)
+
+# Exibe graficamente as correlações por meio da função ggcorrplot
+
+library(ggcorrplot)
+ggcorrplot(correlacao_Rnoa,
+           type = "upper",
+           lab = TRUE,
+           lab_size = 2.5,
+           hc.order = FALSE) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(size = 10, angle = 45, hjust = 1),
+    axis.text.y = element_text(size = 10),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    plot.background = element_rect(color = "black", fill = NA, linewidth = 1),
+    plot.margin = margin(10, 10, 10, 10)
+  )
+```
+
+A **Figura 5.6** apresenta a matriz de correlação da base de dados do retorno
+acionário e, no geral, os resultados se assemelham às correlações encontradas com
+o RNOA. A relação do tamanho da empresa e das medidas de governança com a remuneração
+se mantém em direção e em dimensão. Ativo total (0,58) e tamanho do conselho (0,36)
+apresentam relação positiva com a remuneração, enquanto a concentração acionária
+apresenta relação negativa (-0,21).
+
+Os indicadores de desempenho, nesse caso representados pelo retorno acionário,
+tiveram correlação igualmente fraca, apesar de terem os sinais invertidos em relação
+aos indicadores contábeis. No RNOA idiossincrático e de indústria, a correlação
+foi positiva, enquanto o RNOa de mercado apresentou correlação negativa. Já na 
+análise do retorno acionário, os sinais se invertem: o componente idiossincrático
+e o de indústria apresentam  correlações negativas (apesar de fracas); e o componente
+de mercado apresenta sinal positivo, apesar de também ser quase nulo.
+
+Não se pode afirmar com bastante assertividade sobre a influência dos fatores sobre
+a remuneração de forma isolada; mas algumas relações parecem se desenhar de forma
+mais concreta: as relações positivas do ativo total e do tamanho do conselho com
+a remuneração; e a relação negativa da concentração acionária. Destaca-se também,
+em ambos os casos, a falta de definição sobre a relação existente entre remuneração
+e desempenho.
+
+
+```{r}
+# Constrói matriz de correlação entre as variáveis
+
+correlacao_Retorno <- retorno %>%
+  select(
+    Remuneracao_Total_Media_log,
+    Retorno,
+    Perc_Controlador,
+    Numero_Membros,
+    Ativo_Total_log,
+    Mkt_Retorno,
+    Ind_Retorno,
+    Idios_Retorno
+  ) %>%
+  cor()
+
+colnames(correlacao_Retorno) <- c ("Remuneração média (log)", "Retorno médio", "% Controlador",
+                                "Tamanho do conselho", "Ativo Total (log)", 
+                                "Retorno de mercado", "Retorno de indústria", 
+                                "Retorno idiossincrático")
+
+rownames(correlacao_Retorno) <- colnames(correlacao_Retorno)
+
+# Exibe graficamente as correlações por meio da função ggcorrplot
+
+library(ggcorrplot)
+library(ggcorrplot)
+ggcorrplot(correlacao_Retorno,
+           type = "upper",
+           lab = TRUE,
+           lab_size = 2.5,
+           hc.order = FALSE) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(size = 10, angle = 45, hjust = 1),
+    axis.text.y = element_text(size = 10),
+    axis.title.x = element_blank(),
+    axis.title.y = element_blank(),
+    plot.background = element_rect(color = "black", fill = NA, linewidth = 1),
+    plot.margin = margin(10, 10, 10, 10)
+  )
+```
+
+
+A tendência de alta da remuneração em um período de crise, como encontrada na
+análise descritiva, não é um fato incomum. O trabalho de @Bivens2022 analisou 
+a proporção da remuneração dos executivos nos EUA em relação à remuneração
+dos demais trabalhadores da indústria e, em uma série que analisa essa proporção
+desde os anos 60, a maior diferença histórica foi registrada em 2021, quando um
+executivo ganhou em média 398,8 vezes o que ganhava um trabalhador comum. Destaca-se
+ainda picos nessa relação identificados de 2000 e 2007; anos em que estouraram
+as bolhas econômicas do ponto com e do *subprime*.
+
+Cabe ressaltar que o estudo de @Bivens2022 analisa a desigualdade salarial entre
+executivos e demais trabalhadores; não os salários em si. Entretanto, outros
+trabalhos encontraram evidências do aumento dos salários no período da pandemia.
+@Ye2023 identificaram um aumento de 29,6% na remuneração executiva durante o
+o período de 2020-2021. A alta da remuneração durante o período da pandemia também
+foi identificada por @Bedford2023, que identificaram ainda uma redução da
+remuneração fixa acompanhada por um aumento em bônus e remuneração variável, em 
+um movimento que os autores classificam como um corte simbólico de salários.
+
+Por outro lado, @Alves2021, em um *design* semelhante ao estudo de @Bedford2023,
+encontraram evidências de que os cortes salariais anunciados foram, de fato
+executados; sendo uma forma pela qual os executivos "compartilharam a dor" de 
+acionistas e demais partes. Essa divergência nos resultados de tais estudos é um
+ponto importante no intuito de entender que diferentes contextos podem propiciar
+diferentes resultados.
+
+## Análise dos modelos - RNOA
+
+A presente seção apresenta a análise dos modelos que utilizam o desempenho contábil
+- neste caso representado pelo Retorno sobre os Ativos Operacionais Líquidos - 
+como variável explicativa.Cada tabela apresenta dois modelos executados com cada
+um dos três métodos
+utilizados, contendo todos as mesmas variáveis, com exceção da variável de
+interação. No primeiro modelo de cada tabela, a interação é feita entre a
+variável de desempenho e a *dummy* Covid; enquanto no segundo modelo de cada 
+tabela é utilizada uma interação tripla entre desempenho, a *dummy* de Covid
+e a variável de concentração acionária. Cada modelo é estimado pelos três 
+métodos: MQO, EF e GMM-Sys.
+
+Nesta seção, em todos os modelos dinâmicos o teste de Arellano-Bond identificou
+ausência de autocorrelação serial de primeira e segunda ordem, em um nível de 
+significância de 5%. Além disso,
+tanto os testes de Hansen quanto Sargan não rejeitaram a hipótese nula da validade
+dos instrumentos.
+
+A Tabela 4.3 apresenta os modelos tendo o RNOA de mercado como variável explicativa.
+Nos modelos M1 e M2, tanto o MQO e EF, quanto o modelo dinâmico apresentam um sinal
+negativo no coeficiente associado ao desempenho. Entretanto, sem significância
+estatística. Um indício de que o resultado contábil operacional do mercado no 
+período não exerceu influência sobre a remuneração. A *dummy* referente ao 
+período da pandemia não apresentou significância estatística nos modelos estáticos
+e foi omitida no modelo dinâmico; não sendo possível fazer uma inferência sobre
+uma possível influência do período pandêmico sobre a remuneração.
+
+Com relação às variáveis de governança, o tamanho do conselho não exerceu influência
+significativa sobre a remuneração pelas estimativas de MQO e Efeitos Fixos; entretanto,
+no M1, o GMM aponta um coeficiente significativo de -0,10, representando uma queda de 
+aproximadamente 10% na remuneração a cada unidade adicionada ao conselho, mantendo
+as demais variáveis constantes. No segundo modelo, a estimativa sobre o controle
+não foi significativa. A variável referente ao controle acionário não
+apresentou significância estatística nos modelos de Efeitos Fixos e, embora tenha apresentado significância estatística pelo MQO e no GMM do M2, o efeito econômico é quase insignificante.
+
+O tamanho da empresa, representado pelo logaritmo dos ativos totais, se mostra 
+como a variável mais relevante na explicação da remuneração. A significância
+ao nível de 1% encontrada no MQO, EF e GMM, além do efeito econômico na casa
+de 20% - 0,29 no MQO e EF; 0,23 e 0,21 no GMM - demonstram consistência no 
+indício de que empresas maiores pagam maiores salários aos seus executivos. 
+Por fim, destaca-se também os coeficientes significativos de 0,43 e 0,41 na
+defasagem da remuneração, indicando uma persistência moderada da remuneração.
+
+
+
+\begin{table}[H]\centering
+\scriptsize
+\caption{Comparação entre modelos estáticos e dinâmicos - RNOA de mercado}
+
+\resizebox{\textwidth}{!}{
+\begin{tabular}{l*{6}{c}}
+\toprule
+                    & \multicolumn{3}{c}{M1} & \multicolumn{3}{c}{M2} \\
+\cmidrule(lr){2-4} \cmidrule(lr){5-7}
+                    & MQO & EF & GMM & MQO & EF & GMM \\
+\midrule
+Desempenho            & -0.15 & -0.15 & -0.16 & -0.11 & -0.04 & -0.23 \\
+                    & [-0.61,0.31] & [-0.58,0.28] & [-0.50,0.18] & [-0.55,0.33] & [-0.39,0.32] & [-0.99,0.52] \\
+\addlinespace
+Covid               & 0.14 & 0.15 &  & 0.15 & 0.15 &  \\
+                    & [-0.04,0.32] & [-0.07,0.36] &  & [-0.03,0.32] & [-0.06,0.36] &  \\
+\addlinespace
+Conselho                & 0.01 & 0.01 & -0.10$^{**}$ & 0.01 & 0.01 & -0.07 \\
+                    & [-0.04,0.06] & [-0.03,0.05] & [-0.19,-0.02] & [-0.04,0.06] & [-0.03,0.05] & [-0.18,0.04] \\
+\addlinespace
+Controlador               & -0.01$^{***}$ & -0.00 & -0.01$^{*}$ & -0.01$^{***}$ & -0.00 & -0.01$^{**}$ \\
+                    & [-0.01,-0.00] & [-0.01,0.00] & [-0.02,0.00] & [-0.01,-0.01] & [-0.01,0.00] & [-0.02,-0.00] \\
+\addlinespace
+Tamanho                 & 0.29$^{***}$ & 0.29$^{***}$ & 0.23$^{***}$ & 0.29$^{***}$ & 0.29$^{***}$ & 0.21$^{**}$ \\
+                    & [0.17,0.40] & [0.11,0.46] & [0.08,0.38] & [0.17,0.40] & [0.11,0.46] & [0.05,0.36] \\
+\addlinespace
+int\_Desempenho\_Covid  & 0.09 & 0.12 & 0.13 &  &  &  \\
+                    & [-0.09,0.27] & [-0.11,0.35] & [-0.06,0.31] &  &  &  \\
+\addlinespace
+L.Remuneracao
+                    &  &  & 0.43$^{**}$ &  &  & 0.42$^{**}$ \\
+                    &  &  & [0.09,0.78] &  &  & [0.05,0.79] \\
+\addlinespace
+int\_Desempenho\_Covid\_Controlador
+                    &  &  &  & 0.00 & 0.00 & 0.00 \\
+                    &  &  &  & [-0.01,0.01] & [-0.00,0.01] & [-0.00,0.01] \\
+\midrule
+AR(1) p-valor       &  &  & 0.116 &  &  & 0.108 \\
+AR(2) p-valor       &  &  & 0.161 &  &  & 0.158 \\
+Hansen p-valor      &  &  & 0.697 &  &  & 0.531 \\
+Sargan p-valor      &  &  & 0.651 &  &  & 0.390 \\
+N. instrumentos     &  &  & 21 &  &  & 21 \\
+N. observações      & 644 & 644 & 552 & 644 & 644 & 552 \\
+\bottomrule
+\multicolumn{7}{l}{\footnotesize Intervalos de confiança entre colchetes} \\
+\multicolumn{7}{l}{\footnotesize * p<0.10, ** p<0.05, *** p<0.01} \\
+\end{tabular}
+}
+\end{table}
+
+A Tabela 4.4 apresenta os modelos utilizando o RNOA de indústria como variável
+explicativa, buscando entender como o desempenho operacional médio dos diferentes
+setores influenciou na remuneração dos executivos no período. Os resultados dos 
+modelos M3 e M4 utilizando diferentes estimadores econométricos, dão um panorama
+quanto aos probelmas oriundos da endogeneidade, conforme expressado por @Wintoki2012.
+
+Mais especificamente, as diferenças encontradas nos sinais da estimação do desempenho
+demonstram esse problema. No M3 e M4, o estimador de efeitos fixos apresentou
+uma influência positiva do desempenho de indústria sobre a remuneração, sendo que 
+a estimativa em M3 foi positiva e significativa a 1%. Já nos modelos dinâmicos,
+as estimativas foram negativas e no GMM do M4, a estimativa foi negativa e 
+significativa. Apesar da falta de significância estatística, a mesma inversão 
+de sinais foi observada nas estimativas das variáveis Covid e Conselho; evidenciando
+um possível problema de viés causado por endogeneidade.
+
+No modelo M4, o GMM apresenta um coeficiente para o desempenho de -1,85, significativo
+ao nível de 5%. Ou seja, um aumento de um ponto percentual no desempenho operacional
+da indústria leva a remuneração executiva a cair, em média, 1,85%. A variável 
+referente ao controle acionário, apesar de apresentar coerência quanto
+aos sinais, apresentou significância apenas nas estimativas de MQO e na estimativa
+do GMM do M3; entretanto, com efeito econômico ínfimo.
+
+Novamente, o tamanho da empresa e a defasagem da remuneração apresentaram coerência 
+na explicação da remuneração. Com relação ao tamanho, todas as estimativas foram
+significativas e semelhantes com relação à proporção, com coeficientes na casa de
+0,20. Considerando o GMM, o aumento de 1% no ativo total da empresa, está associado,
+em média, a um aumento de cerca de 0,20% na remuneração executiva.
+
+Com relação à defasagem da remuneração, essa também apresentou consistência 
+em relação aos modelos anteriores. No M3 e M4 as estimativas dos coeficientes foram
+de 0,47 e 0,59, estatisticamente significativas em níveis de 5% e 1%, respectivamente.
+Sendo um indício de que existe persistência na remuneração, e que a remuneração 
+passada influência a remuneração futura.
+
+As variáveis de interação também demonstraram divergência entre as estimativas
+por efeitos fixos e GMM. No M3, a interação entre o desempenho e *dummy* Covid
+apresentou um efeito negativo considerável (-0,48) e significativo a 1% sobre a
+remuneração, enquanto no GMM o efeito foi positivo e não significativo.
+
+No M4, o GMM aponta um resultado interessante quanto à interação tripla. O 
+coeficiente positivo e significativo de 0,08 da interação demonstra que, durante
+o período da pandemia, o desempenho operacional setorial deixou de influenciar
+negativamente a remuneração dos executivos de empresas com controle acionário
+mais concentrado. Tal resultado pode ser um indício de maior alinhamento
+entre remuneração e desempenho em empresas com controle acionário mais concentrado.
+
+
+\begin{table}[H]\centering
+\scriptsize
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Comparação entre modelos estáticos e dinâmicos - RNOA de indústria}
+
+\resizebox{\textwidth}{!}{
+\begin{tabular}{l*{6}{c}}
+\toprule
+                    & \multicolumn{3}{c}{M3} & \multicolumn{3}{c}{M4} \\
+\cmidrule(lr){2-4} \cmidrule(lr){5-7}
+                    & MQO & EF & GMM & MQO & EF & GMM \\
+\midrule
+Desempenho            & -0.05 & 0.52\sym{***} & -0.89 & -0.09 & 0.24 & -1.85\sym{**} \\
+                    & [-1.10,1.00] & [0.20,0.85] & [-5.43,3.64] & [-0.38,0.21] & [-0.12,0.60] & [-3.47,-0.23] \\
+\addlinespace
+Covid               & 0.15 & 0.16 & -0.15\sym{*} & 0.16\sym{*} & 0.16 & -0.12 \\
+                    & [-0.04,0.33] & [-0.06,0.37] & [-0.31,0.02] & [-0.03,0.34] & [-0.06,0.37] & [-0.32,0.07] \\
+\addlinespace
+Conselho                & 0.01 & 0.01 & -0.11 & 0.01 & 0.01 & -0.12\sym{*} \\
+                    & [-0.04,0.06] & [-0.03,0.05] & [-0.28,0.06] & [-0.04,0.06] & [-0.03,0.05] & [-0.25,0.01] \\
+\addlinespace
+Controlador               & -0.01\sym{***} & -0.00 & -0.01\sym{**} & -0.01\sym{***} & -0.00 & -0.01\sym{*} \\
+                    & [-0.01,-0.01] & [-0.01,0.00] & [-0.02,-0.00] & [-0.01,-0.01] & [-0.01,0.00] & [-0.02,0.00] \\
+\addlinespace
+Tamanho                 & 0.29\sym{***} & 0.29\sym{***} & 0.22\sym{**} & 0.29\sym{***} & 0.29\sym{***} & 0.20\sym{**} \\
+                    & [0.17,0.40] & [0.12,0.46] & [0.05,0.40] & [0.17,0.40] & [0.12,0.46] & [0.02,0.38] \\
+\addlinespace
+int\_Desempenho\_Covid  & 0.25 & -0.48\sym{***} & 0.92 &  &  &  \\
+                    & [-1.65,2.15] & [-0.79,-0.17] & [-3.72,5.56] &  &  &  \\
+\addlinespace
+L.Remuneracao
+                    &  &  & 0.47\sym{**} &  &  & 0.59\sym{***} \\
+                    &  &  & [0.04,0.90] &  &  & [0.15,1.02] \\
+\addlinespace
+int\_Desempenho\_Covid\_Controlador
+                    &  &  &  & 0.01 & -0.00 & 0.08\sym{***} \\
+                    &  &  &  & [-0.01,0.04] & [-0.01,0.01] & [0.02,0.13] \\
+\midrule
+AR(1) p-valor       &  &  & 0.131 &  &  & 0.097 \\
+AR(2) p-valor       &  &  & 0.213 &  &  & 0.156 \\
+Hansen p-valor      &  &  & 0.486 &  &  & 0.536 \\
+Sargan p-valor      &  &  & 0.448 &  &  & 0.790 \\
+N. instrumentos     &  &  & 21 &  &  & 21 \\
+N. observações      & 644 & 644 & 552 & 644 & 644 & 552 \\
+\bottomrule
+\multicolumn{7}{l}{\footnotesize Intervalos de confiança entre colchetes} \\
+\multicolumn{7}{l}{\footnotesize * p<0.10, ** p<0.05, *** p<0.01} \\
+\end{tabular}
+}
+\end{table}
+
+A Tabela 4.5 apresenta os modelos que têm como variável explicativa o desempenho 
+contábil idiossincrático. Os resultados apontam a falta de influência do 
+desempenho isolado da firma sobre a remuneração executiva. Em todas as estimativas
+não houve significância. Apesar no modelo M6, o GMM ter apontado significância 
+a 10%, o intervalo de confiança passa por zero, não sendo uma evidência robusta
+da relação entre o desempenho individual e a remuneração executiva.
+
+A *dummy* de Covid foi omitida nas estimativas por GMM e não significativa em MQO
+e EF. O tamanho do conselho de administração não apresentou evidência significativa
+de influência sobre a remuneração; bem como a variável de controle acionário, que
+apresentou significância apenas pelo MQO, mas com efeito econômico infímo.
+
+Assim como nos modelos anteriores, a evidência mais consistente da explicação 
+da remuneração executiva está no tamanho das empresas e no fator de persistência
+da remuneração. O tamanho foi positivo e significativo em todas as estimativas,
+e considerando o GMM, um aumento de 1% no ativo total implica em um aumento de 
+pouco mais de 0,20% na remuneração executiva.
+
+Outro resultado consistente apresentado pelas estimativas por GMM é a persistência
+dinâmica. O coeficiente de 0,44 indica que um aumento de 1% na remuneração em 
+período anterior está associado a um aumento de, em média, 0,44% na remuneração
+corrente, mantendo todas demais variáveis constantes.
+
+
+\begin{table}[H]\centering
+\scriptsize
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Comparação entre modelos estáticos e dinâmicos - RNOA idiossincrático}
+
+\resizebox{\textwidth}{!}{
+\begin{tabular}{l*{6}{c}}
+\toprule
+                    & \multicolumn{3}{c}{M5} & \multicolumn{3}{c}{M6} \\
+\cmidrule(lr){2-4} \cmidrule(lr){5-7}
+                    & MQO & EF & GMM & MQO & EF & GMM \\
+\midrule
+Desempenho          & 0.11 & 0.04 & 0.26 & 0.07 & 0.02 & 0.32\sym{*} \\
+                    & [-0.08,0.30] & [-0.11,0.18] & [-0.15,0.66] & [-0.13,0.27] & [-0.12,0.16] & [-0.03,0.67] \\
+\addlinespace
+Covid               & 0.14 & 0.16 &  & 0.14 & 0.15 &  \\
+                    & [-0.04,0.33] & [-0.06,0.38] &  & [-0.05,0.32] & [-0.07,0.37] &  \\
+\addlinespace
+Conselho                & 0.01 & 0.01 & -0.10 & 0.01 & 0.01 & -0.10 \\
+                    & [-0.04,0.06] & [-0.03,0.05] & [-0.25,0.05] & [-0.04,0.06] & [-0.03,0.05] & [-0.25,0.06] \\
+\addlinespace
+Controlador               & -0.01\sym{***} & -0.00 & -0.01 & -0.01\sym{***} & -0.00 & -0.00 \\
+                    & [-0.01,-0.01] & [-0.01,0.00] & [-0.01,0.00] & [-0.01,-0.01] & [-0.01,0.00] & [-0.01,0.00] \\
+\addlinespace
+Tamanho                 & 0.28\sym{***} & 0.29\sym{***} & 0.23\sym{**} & 0.28\sym{***} & 0.29\sym{***} & 0.22\sym{**} \\
+                    & [0.17,0.40] & [0.11,0.46] & [0.04,0.42] & [0.17,0.40] & [0.11,0.46] & [0.04,0.40] \\
+\addlinespace
+int\_Desempenho\_Covid & -0.01 & -0.04 & -0.12 &  &  &  \\
+                    & [-0.25,0.23] & [-0.25,0.18] & [-0.40,0.15] &  &  &  \\
+\addlinespace
+L.Remuneracao
+                    &  &  & 0.44\sym{**} &  &  & 0.44\sym{***} \\
+                    &  &  & [0.11,0.77] &  &  & [0.11,0.77] \\
+\addlinespace
+int\_Desempenho\_Covid\_Controlador
+                    &  &  &  & 0.00 & 0.00 & -0.00 \\
+                    &  &  &  & [-0.00,0.01] & [-0.00,0.01] & [-0.02,0.01] \\
+\midrule
+AR(1) p-valor       &  &  & 0.137 &  &  & 0.144 \\
+AR(2) p-valor       &  &  & 0.203 &  &  & 0.214 \\
+Hansen p-valor      &  &  & 0.614 &  &  & 0.608 \\
+Sargan p-valor      &  &  & 0.573 &  &  & 0.567 \\
+N. instrumentos     &  &  & 21 &  &  & 21 \\
+N. observações      & 644 & 644 & 552 & 644 & 644 & 552 \\
+\bottomrule
+\multicolumn{7}{l}{\footnotesize Intervalos de confiança entre colchetes} \\
+\multicolumn{7}{l}{\footnotesize * p<0.10, ** p<0.05, *** p<0.01} \\
+\end{tabular}
+}
+\end{table}
+
+Para análise em relação à literatura, as estimativas dos parâmetros consideradas
+serão as desenvolvidas através do GMM. É importante ressaltar que o desenvolvimento
+de estimativas através de Mínimos Quadrados Ordinários e Efeitos Fixos são para
+fins de robustez e complemento à análise, buscando investigar o efeito da
+endogeneidade em modelos estáticos, conforme o trabalho de @Wintoki2012.
+
+Com relação aos indicadores de desempenho, divididos entre desempenho de mercado e
+de indústria (ambos componentes de sorte) e idiossincrático (habilidade dos
+executivos), os resultados apontaram direções e significâncias distintas.
+
+O primeiro indicador de desempenho analisado, a rentabilidade do mercado (GMM do
+M1 e M2), apresentou sinal negativo, mas sem qualquer significância. No contexto
+dessa pesquisa, a inferência é que a rentabilidade operacional do mercado como
+um todo não exerceu qualquer influência sobre a remuneração executiva no período.
+Essa é uma evidência de não ocorrência do *pay for luck*; ou seja, o desempenho
+geral do mercado não exerceu qualquer influência sobre a remuneração executiva.
+
+Essa ausência de relação encontra evidência na literatura. @Garvey2006 apontam
+que a sensibilidade da remuneração em relação a fatores externos é assimétrica,
+sendo que no contexto de sua análise os autores encontraram evidências de que
+a remuneração tem uma relação positiva com o que eles chamam de "boa sorte", ou
+movimentos positivos do mercado; e em contrapartida não existe relação na mesma
+proporção com a "má sorte", ou desempenho negativo do mercado. O trabalho mais 
+proeminente a respeito do conceito de *pay for luck*, que é o de 
+@Bertrand2001, também encontrou evidências de que a relação entre desempenho
+e remuneração era enfraquecida em períodos de queda do mercado.
+
+Na análise do desempenho contábil da indústria (M3 e M4) aparecem os 
+resultados mais notáveis com relação ao desempenho contábil dentro dos modelos.
+Primeiro, a diferença entre os sinais entre as estimativas de EF e GMM. No M3, 
+o desempenho apresenta um coeficiente positivo de 0,52 e significativo a 1%,
+enquanto o GMM apresenta um coeficiente negativo e não significativo de 0,89.
+Já no M4, o EF também apresenta um coeficiente positivo, embora não significativo,
+enquanto o GMM apresenta um coeficiente negativo (-1,85) e significativo. Essa
+diferença é evidenciada para destacar o fato de que a escolha do método de estimação
+pode alterar completamente a interpretação. Conforme testado por @Wintoki2012,
+em uma relação potencialmente endógena, a utilização de um modelo estático pode
+enviesar as estimativas.
+
+Com relação à influência do desempenho da indústria, nota-se a influência negativa
+do desempenho contábil sobre a remuneração em um contexto. O modelo M4 apresenta
+uma estimativa do coeficiente de desempenho de -1,85 e significativa a 5%. Ou seja,
+o aumento de um ponto percentual no RNOA da indústria está associado a uma queda
+de, em média, 1,85% na remuneração executiva. Este é um resultado contraintuitivo.
+Para @Bertrand2001 e @Garvey2006, a sorte é definida como o desempenho que foge
+ao controle dos executivos. Nesse caso, o desempenho médio do setor está
+afetando negativamente a remuneração executiva. A influência negativa de fatores
+externos sobre a remuneração executiva é descrita por @Garvey2006 como "má sorte".
+
+
+No GMM do M4, outro resultado contraintuitivo foi obtido. A interação tripla entre
+desempenho, a *dummy* de Covid e a variável de controle acionário mostra uma 
+inversão no sinal da influência do desempenho de indústria sobre a remuneração
+executiva. Em suma, pode-se interpretar da seguinte forma: durante o período
+da pandemia, empresas com maior concentração acionária pagaram mais aos seus executivos
+por sorte, considerando como sorte o desempenho específico por setor.
+
+Em termos econômicos, durante a pandemia, um aumento de um ponto percentual do RNOA,
+acompanhado de 10 pontos percentuais na concentração acionária, elevou a remuneração
+em 0,08% em média. Apesar do efeito econômico pequeno, ele é contraintuitivo pois,
+de acordo com o proposto e testado por @Bertrand2001, a concentração acionária
+tende a diminuir a sensibilidade da remuneração a fatores externos de desempenho,
+sendo considerado um filtro oriundo da melhor governança. Essa relação é explorada 
+ainda por @Kim2010, que encontra evidência de que uma maior rotatividade de grandes
+acionistas aumenta a sensibilidade ao *pay for luck* e uma maior concentração acionária
+aumenta o alinhamento entre a remuneração e o desempenho individual da própria empresa,
+recompensando a habilidade do executivo.
+
+Apesar o resultado encontrado no presente trabalho ser contraintuitivo e oposto
+aos trabalhos de @Bertrand2001 e @Kim2010, ele não é isolado da literatura. @Shang2020
+encontra resultado semelhante, onde a inclusão de uma variável que represente um
+acionista controlador aumenta a sensibilidade da remuneração à sorte. A pesquisa
+é feita com empresas chinesas e, os autores argumentam que esse resultado oposto
+ao geralmente encontrado na literatura pode ser oriundo da grande participação
+de agências estatais como controladoras das empresas chinesas, apesar de não
+apontarem certamente qual seria a influência específica desse tipo de propriedade.
+
+Além da influência do desempenho, destaca-se o padrão das variáveis de controle. 
+A *dummy* de Covid foi omitida em quatro dos seis modelos estimados com GMM.
+Nas estimações dos modelos M3 e M4 por GMM, o coeficiente obtido foi negativo,
+entretanto com baixa significância no M3 e ausência de significância no M4.
+
+O tamanho do conselho apresentou sempre sinal negativo em todos os modelos GMM, com 
+signiância a 5% no M1 e 10% no M4. Apesar da baixa significância das estimativas,
+o padrão dos coeficientes aparenta uma ideia de que conselhos maiores implicam
+menores remunerações. A influência do tamanho do conselho sobre a remuneração
+parece controversa. @Jensen1993 propõe que conselhos menores possuem maior eficiência
+no monitoramento de executivos; o que consequentemente ajudaria num melhor desenho
+da remuneração executiva. Entretanto, estudos empíricos mostram ambiguidade nos
+resultados: @Ozkan2007 encontra relação positiva entre tamanho do conselho e 
+remuneração em empresas do Reino Unido, enquanto @Patnaik2020 encontram relação
+negativa em empresas indianas.
+
+A concentração acionária apresentou coesão nos resultados entre os diferentes métodos
+de estimação: influência negativa sobre a remueração, com significância em algumas
+estimativas e efeito econômico ínfimo. Apesar da pouca influência encontrada,
+essa relação tende a ser negativa pelo fato de que um grande controlador
+possui maior interesse pelo monitoramento, ocasionando uma menor remuneração
+@Bertrand2001. Entretanto, destaca-se a influência dessa variável na geração
+de sensibilidade da remuneração ao *pay for luck*, assim como encontrado no trabalho
+de @Shang2020.
+
+Uma variável consistente em todos os modelos é o tamanho da empresa - aqui 
+representado pelos ativos totais. @Gorman1986 argumenta que a relação positiva
+entre tamanho da empresa e remuneração executiva é documentada desde o fim dos
+anos 50. Aqui, a evidência dessa relação foi bastante coesa, com coeficientes 
+positivos e significativos em todos os modelos, estáticos e o modelo dinâmico.
+O trabalho de @Tosi2000 encontrou evidências de que o tamanho da empresa, medido
+em diversas métricas, explica mais de 40% da variância da remuneração executiva.
+
+Por fim, outro resultado coeso entre os modelos é o efeito da persistência da 
+remuneração. Em todas
+as estimativas que utilizaram GMM houve efeito positivo - com coeficientes na casa
+de 0,40 - e significativo da remuneração em *t-1* sobre a remuneração em *t*. Essa 
+persistência é encontrada em diferentes trabalhos em diferentes mercados, como
+os estudos de @Raithatha2016 no mercado indiano e @Buachoom2017 em empresas tailandesas,
+e @Bhuyan2022 em empresas seguradoras do mercado americano.
+
+## Análise de modelos - Retorno Acionário
+
+A presente seção contém análise semelhante à da seção anterior, com a ressalva
+de que o indicador de desempenho utilizado é o retorno acionário. No mais, os
+modelos e estratégias seguem as mesmas estruturas utilizadas para análise
+da influência do desempenho contábil.
+
+Considerando um nível de significância de 5%, todos os modelos GMM apresentam
+autocorrelação de primeira ordem e ausência de autocorrelação de segunda ordem;
+com exceção do modelo M12, que apresenta autocorrelação de segunda ordem.
+Diferente dos modelos que utilizam o RNOA, o teste de Sargan rejeita a validade 
+dos instrumentos para alguns dos modelos dessa seção. Entretanto, considera-se o
+teste de Hansen, por ser robusto à heterocedasticidade. Considerando o Hansen,
+nenhum dos modelos rejeitou a hipótese nula de validade dos instrumentos. 
+
+A Tabela 4.6 apresenta os resultados tendo como variável explicativa de desempenho
+o retorno acionário de mercado. Os resultados apontam que não há qualquer relação
+entre o desempenho medido pelo retorno acionário de mercado e a remuneração. A
+variável Covid é omitida nas estimativas do GMM. O tamanho do conselho não apresenta
+significância estatística robusta, pelo intervalo de confiança passar por zero,
+e a concentração acionária não apresenta qualquer efeito no GMM, apesar de apresentar
+um pequeno efeito negativo sobre a remuneração nas estimativas de MQO e EF.
+
+Assim como nas estimativas que utilizaram o RNOA, os resultados apresentam evidências
+sólidas de que a remuneração sofre influência consistente do tamanho da empresa
+e da persistência dinâmica. Com o mesmo sinal, a mesma proporção e significância
+a 1%, os resultados apontam que o aumento de 1% no ativo total corresponde ao aumento 
+de pouco mais de 0,20% na remuneração. Da mesma forma, os resultados evidenciam que
+o acréscimo de 1% na remuneração anterior impactam no aumento de cerca de 0,50%
+no valor da remuneração do período atual.
+
+\begin{table}[H]\centering
+\scriptsize
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Comparação entre modelos estáticos e dinâmicos - Retorno acionário}
+
+\resizebox{\textwidth}{!}{
+\begin{tabular}{l*{6}{c}}
+\toprule
+                    & \multicolumn{3}{c}{M7} & \multicolumn{3}{c}{M8} \\
+\cmidrule(lr){2-4} \cmidrule(lr){5-7}
+                    & MQO & EF & GMM & MQO & EF & GMM \\
+\midrule
+Desempenho         & -0.00 & -0.00 & 0.00 & -0.00 & -0.00\sym{*} & 0.00 \\
+                    & [-0.00,0.00] & [-0.00,0.00] & [-0.00,0.00] & [-0.00,0.00] & [-0.00,0.00] & [-0.00,0.00] \\
+\addlinespace
+Covid               & 0.13 & 0.14 &  & 0.13 & 0.14 &  \\
+                    & [-0.03,0.29] & [-0.04,0.31] &  & [-0.03,0.29] & [-0.03,0.31] &  \\
+\addlinespace
+Conselho                & 0.02 & 0.00 & -0.06\sym{*} & 0.02 & 0.00 & -0.07\sym{*} \\
+                    & [-0.02,0.06] & [-0.02,0.03] & [-0.13,0.01] & [-0.02,0.06] & [-0.02,0.03] & [-0.15,0.01] \\
+\addlinespace
+Controlador               & -0.01\sym{***} & -0.01\sym{***} & -0.01 & -0.01\sym{***} & -0.01\sym{***} & -0.01 \\
+                    & [-0.01,-0.01] & [-0.01,-0.00] & [-0.01,0.00] & [-0.01,-0.01] & [-0.01,-0.00] & [-0.01,0.00] \\
+\addlinespace
+Tamanho                 & 0.34\sym{***} & 0.31\sym{***} & 0.21\sym{***} & 0.34\sym{***} & 0.31\sym{***} & 0.22\sym{***} \\
+                    & [0.23,0.44] & [0.17,0.44] & [0.06,0.35] & [0.23,0.44] & [0.17,0.44] & [0.08,0.36] \\
+\addlinespace
+int\_Desempenho\_Covid & -0.00 & -0.00 & -0.00 &  &  &  \\
+                    & [-0.00,0.00] & [-0.00,0.00] & [-0.00,0.00] &  &  &  \\
+\addlinespace
+L.Remuneracao
+                    &  &  & 0.50\sym{***} &  &  & 0.49\sym{***} \\
+                    &  &  & [0.16,0.84] &  &  & [0.16,0.82] \\
+\addlinespace
+int\_Desempenho\_Covid\_Controlador
+                    &  &  &  & -0.00 & -0.00 & -0.00\sym{*} \\
+                    &  &  &  & [-0.00,0.00] & [-0.00,0.00] & [-0.00,0.00] \\
+\midrule
+AR(1) p-valor       &  &  & 0.026 &  &  & 0.027 \\
+AR(2) p-valor       &  &  & 0.053 &  &  & 0.056 \\
+Hansen p-valor      &  &  & 0.211 &  &  & 0.174 \\
+Sargan p-valor      &  &  & 0.378 &  &  & 0.320 \\
+N. instrumentos     &  &  & 21 &  &  & 21 \\
+N. observações      & 1015 & 1015 & 870 & 1015 & 1015 & 870 \\
+\bottomrule
+\multicolumn{7}{l}{\footnotesize Intervalos de confiança entre colchetes} \\
+\multicolumn{7}{l}{\footnotesize * p<0.10, ** p<0.05, *** p<0.01} \\
+\end{tabular}
+}
+\end{table}
+
+A Tabela 4.7 apresenta os resultados, usando como variável explicativa de desempenho
+o retorno de indústria. Novamente, não foram encontradas evidências de relação 
+entre a vartiável de desempenho e a remuneração. Os modelos M9 e M10 novamente
+demonstram uma diferença importante oriunda da escolha por diferentes métodos 
+de estimação. A *dummy* Covid é positiva nas estimativas de MQO e EF, sendo 
+fracamente significativas em três dos quatro modelos; enquanto nas estimativas
+do GMM o efeito apresentado é negativo, apresentando significância consistente no
+GMM do modelo M10.
+
+As variáveis de governança, nas estimativas do GMM, apresentaram efeito negativo 
+sobre a remuneração; apesar da baixa significância da variável Conselho (os
+intervalos de confiança passam por zero) e do baixo efeito econômico da variável
+Controlador. Neste caso, as estimativas do GMM apontam quedas aproximadas de 
+12% e 18% na remuneração executiva no período da pandemia.
+
+Novamente, em concordância com os modelos anteriores, o tamanho da empresa e 
+a remuneração passada se apresentam como resultados consistentes que influenciaram
+a remuneração executiva no período. Em todas as estimativas o sinal e o efeito 
+econômico foram proporcionais aos demais resultados. Os modelos dinâmicos apontam
+coeficientes de 0,27 e 0,29 com relação à variável Tamanho e 0,34 e 0,31 na 
+defasagem da remuneração. Ressalta-se apenas a baixa significância da remuneração
+defasada do GMM do M10, uma vez que a estimativa do parâmetro é significativa apenas
+a 10% e o intervalo de confiança cruza a linha do zero.
+
+
+\begin{table}[htbp]\centering
+\scriptsize
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Comparação entre modelos estáticos e dinâmicos}
+
+\resizebox{\textwidth}{!}{
+\begin{tabular}{l*{6}{c}}
+\toprule
+                    & \multicolumn{3}{c}{M9} & \multicolumn{3}{c}{M10} \\
+\cmidrule(lr){2-4} \cmidrule(lr){5-7}
+                    & MQO & EF & GMM & MQO & EF & GMM \\
+\midrule
+Desempenho        & -0.00 & 0.00 & 0.00 & -0.00 & 0.00 & 0.00 \\
+                    & [-0.00,0.00] & [-0.00,0.00] & [-0.00,0.01] & [-0.00,0.00] & [-0.00,0.00] & [-0.00,0.01] \\
+\addlinespace
+Covid               & 0.15\sym{**} & 0.14 & -0.12\sym{*} & 0.15\sym{**} & 0.15\sym{*} & -0.18\sym{**} \\
+                    & [0.00,0.30] & [-0.03,0.31] & [-0.24,0.01] & [0.00,0.29] & [-0.02,0.31] & [-0.35,-0.01] \\
+\addlinespace
+Conselho                & 0.02 & 0.00 & -0.07\sym{*} & 0.02 & 0.00 & -0.07\sym{*} \\
+                    & [-0.02,0.06] & [-0.02,0.03] & [-0.15,0.01] & [-0.02,0.06] & [-0.02,0.03] & [-0.16,0.01] \\
+\addlinespace
+Controlador               & -0.01\sym{***} & -0.01\sym{***} & -0.01\sym{**} & -0.01\sym{***} & -0.01\sym{***} & -0.01\sym{**} \\
+                    & [-0.01,-0.01] & [-0.01,-0.00] & [-0.01,-0.00] & [-0.01,-0.01] & [-0.01,-0.00] & [-0.01,-0.00] \\
+\addlinespace
+Tamanho                 & 0.33\sym{***} & 0.32\sym{***} & 0.27\sym{***} & 0.33\sym{***} & 0.32\sym{***} & 0.29\sym{***} \\
+                    & [0.23,0.44] & [0.18,0.45] & [0.13,0.41] & [0.23,0.44] & [0.18,0.45] & [0.13,0.44] \\
+\addlinespace
+int\_Desempenho\_Covid & 0.00 & 0.00 & -0.00 &  &  &  \\
+                    & [-0.00,0.01] & [-0.00,0.00] & [-0.01,0.00] &  &  &  \\
+\addlinespace
+L.Remuneracao
+                    &  &  & 0.34\sym{**} &  &  & 0.31\sym{*} \\
+                    &  &  & [0.01,0.66] &  &  & [-0.05,0.67] \\
+\addlinespace
+int\_Desempenho\_Covid\_Controlador
+                    &  &  &  & 0.00 & 0.00 & -0.00 \\
+                    &  &  &  & [-0.00,0.00] & [-0.00,0.00] & [-0.00,0.00] \\
+\midrule
+AR(1) p-valor       &  &  & 0.023 &  &  & 0.029 \\
+AR(2) p-valor       &  &  & 0.093 &  &  & 0.138 \\
+Hansen p-valor      &  &  & 0.189 &  &  & 0.130 \\
+Sargan p-valor      &  &  & 0.047 &  &  & 0.004 \\
+N. instrumentos     &  &  & 21 &  &  & 21 \\
+N. observações      & 1015 & 1015 & 870 & 1015 & 1015 & 870 \\
+\bottomrule
+\multicolumn{7}{l}{\footnotesize Intervalos de confiança entre colchetes} \\
+\multicolumn{7}{l}{\footnotesize * p<0.10, ** p<0.05, *** p<0.01} \\
+\end{tabular}
+}
+\end{table}
+
+A Tabela 4.8, por fim apresenta as estimativas utilizando o retorno acionário
+idiossincrático como variável explicativa. Assim como nos demais modelos que
+utilizaram o retorno acionário como variável de desempenho, o efeito do retorno 
+idiossincrático foi nulo.
+
+Destaca-se novamente a diferença nos resultados entre modelos estáticos e dinâmicos.
+Nas estimativas estáticas dos modelos M11 e M12, a *dummy* Covid apresentou sinal
+positivo, embora não significativo. Já nos modelos dinâmicos, apesar da baixa 
+significância no GMM do modelo M11 e a falta de significância no GMM do M12, o
+sinal negativo é um indício de viés das estimativas por modelos estáticos.
+
+Nos modelos dinâmicos, a variável Conselho apresentou efeito negativo e significativo
+sobre a remuneração. Os coeficientes apontam que a inclusão de um membro adicional
+no conselho de administração, mantidas as demais condições constantes,
+implica na redução de, em média, aproximadamente 10% da remuneração executiva. 
+A concentração acionária manteve o padrão com relação aos resultados anterioes:
+pouca significância e efeito econômico ínfimo.
+
+As variáveis de interação não apresentaram qualquer efeito. E por fim, os 
+resultados mais coerentes em todos os modelos foram os efeitos do tamanho da 
+empresa e da persistência da remuneração. Nas estimativas do GMM, o aumento de 
+1% no tamanho da empresa está associado a um aumento de, em média, 0,25% na
+remuneração executiva, mantidas as demais condições constantes. Nos modelos estáticos
+as estimativas continuam positivas e significativas, mas com uma dimensão maior
+dos coeficientes.
+
+Neste último extrato, a defasagem da remuneração indicou que um aumento de 1%
+na remuneração do ano anterior implica que, em média, a remuneração do ano atual
+cresce em cerca de 0,49%. Indicando o efeito consistente da persistência dinâmica
+na evolução da remuneração executiva no período.
+
+
+
+\begin{table}[htbp]\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Comparação entre modelos estáticos e dinâmicos}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{l*{6}{c}}
+\toprule
+                    & \multicolumn{3}{c}{M11} & \multicolumn{3}{c}{M12} \\
+\cmidrule(lr){2-4} \cmidrule(lr){5-7}
+                    & MQO & EF & GMM & MQO & EF & GMM \\
+\midrule
+Desempenho       & 0.00 & 0.00\sym{*} & -0.00 & -0.00 & 0.00 & -0.00 \\
+                    & [-0.00,0.00] & [-0.00,0.00] & [-0.00,0.00] & [-0.00,0.00] & [-0.00,0.00] & [-0.00,0.00] \\
+\addlinespace
+Covid               & 0.13 & 0.13 & -0.13\sym{*} & 0.14\sym{*} & 0.14 & -0.10 \\
+                    & [-0.03,0.29] & [-0.05,0.30] & [-0.27,0.01] & [-0.02,0.29] & [-0.04,0.31] & [-0.24,0.04] \\
+\addlinespace
+Conselho                & 0.02 & 0.00 & -0.10\sym{**} & 0.02 & 0.00 & -0.11\sym{**} \\
+                    & [-0.02,0.06] & [-0.02,0.03] & [-0.20,-0.00] & [-0.02,0.06] & [-0.02,0.03] & [-0.20,-0.01] \\
+\addlinespace
+Controlador               & -0.01\sym{***} & -0.01\sym{***} & -0.01\sym{*} & -0.01\sym{***} & -0.01\sym{***} & -0.01\sym{*} \\
+                    & [-0.01,-0.01] & [-0.01,-0.00] & [-0.01,0.00] & [-0.01,-0.00] & [-0.01,-0.00] & [-0.01,0.00] \\
+\addlinespace
+Tamanho                 & 0.33\sym{***} & 0.31\sym{***} & 0.26\sym{***} & 0.33\sym{***} & 0.31\sym{***} & 0.25\sym{***} \\
+                    & [0.23,0.44] & [0.18,0.44] & [0.12,0.40] & [0.23,0.44] & [0.18,0.44] & [0.11,0.39] \\
+\addlinespace
+int\_Desempenho\_Covid 
+                    & -0.00 & -0.00\sym{**} & -0.00 &  &  &  \\
+                    & [-0.00,0.00] & [-0.00,-0.00] & [-0.00,0.00] &  &  &  \\
+\addlinespace
+L.Remuneracao
+                    &  &  & 0.48\sym{***} &  &  & 0.49\sym{***} \\
+                    &  &  & [0.17,0.79] &  &  & [0.19,0.80] \\
+\addlinespace
+int\_Desempenho\_Covid\_Controlador
+                    &  &  &  & 0.00 & -0.00 & -0.00 \\
+                    &  &  &  & [-0.00,0.00] & [-0.00,0.00] & [-0.00,0.00] \\
+\midrule
+AR(1) p-valor       &  &  & 0.029 &  &  & 0.025 \\
+AR(2) p-valor       &  &  & 0.053 &  &  & 0.047 \\
+Hansen p-valor      &  &  & 0.100 &  &  & 0.145 \\
+Sargan p-valor      &  &  & 0.062 &  &  & 0.015 \\
+N. instrumentos     &  &  & 21 &  &  & 21 \\
+N. observações      & 1015 & 1015 & 870 & 1015 & 1015 & 870 \\
+\bottomrule
+\multicolumn{7}{l}{\footnotesize Intervalos de confiança entre colchetes} \\
+\multicolumn{7}{l}{\footnotesize * p<0.10, ** p<0.05, *** p<0.01} \\
+\end{tabular}
+}
+\end{table}
+
+
+Na análise do retorno acionário, alguns resultados seguiram o padrão identificado
+nos modelos que utilizaram o retorno contábil como variável de desempenho. Entretanto,
+o resultado da relação entre desempenho e remuneração foi completamente nulo, com
+coeficientes próximos de zero e sem significância estatística. Não foram encontradas
+evidências de que as medidas de 
+sorte (retorno de mercado e indústria) e nem de habilidade (retorno idiossincrático)
+exerceram qualquer influência sobre a remuneração executiva no período.
+
+Naquele que talvez seja o trabalho mais proeminente acerca dos estudos sobre
+pagamento por sorte, o trabalho de @Bertrand2001, os resultados externos às empresas,
+tanto representados pelo retorno contábil quanto o retorno acionário, apresentaram
+influência positiva sobre a remuneração executiva, indicando incidência do pagamento
+por sorte.
+
+No período da pandemia, há resultados controversos. Enquanto @Ye2023, em um estudo
+com empresas listadas no S&P 1500, encontraram relação positiva entre os indicadores
+de desempenho  sobre a remuneração, @Muzata2023, analisando empresas sulafricanas,
+encontraram evidências de influência negativa do desempenho sobre a remuneração;
+fato esse que os autores atribuem a um possível desalinhamento ou falha na política
+de remuneração.
+
+Um trabalho realizado em outro contexto - anterior à pandemia - apresenta um resultado
+de certa forma semelhante ao encontrado no presente trabalho. @Raithatha2016, em
+um estudo com empresas indianas, encontraram evidências de que a remuneração executiva
+apresentava relação com o desempenho contábil das firmas; entretanto, a relação 
+deixava de existir quando os indicadores de desempenho passavam a ser índices de
+mercado. Tais resultados podem indicar que, em determinados contextos ou mercados,
+a remuneração seja menos sensível a indicadores de mercado do em relação aos
+indicadores contábeis.
+
+O tamanho do conselho de administração apresentou resultados divergentes quando
+considerando os diferentes métodos de estimação dos modelos. O coeficiente 
+apresentou sinal positivo (apesar de baixo e não significativo) nas estimativas
+de MQO; nulo em efeitos fixos; e negativo e por vezes significativo em GMM. A
+variável Conselho apresentou significância a 10% nos GMM's dos modelos M7, M8,
+M9 e M10 (ressalta-se que os intervalos de confiança dessas estimativas passam
+por zero); e significância a 5% nas estimativas de GMM dos modelos M11 e M12.
+
+@Bebchuk2003 argumentam que conselhos maiores tendem a implicar em maiores remunerações
+aos executivos, pelo fato de que o tamanho tende a dificultar a organização
+do trabalho do conselho. Entretanto, especificamente com relação ao efeito dessa
+variável sobre a remuneração, existem resultados controversos, com pesquisas que
+apresentam tanto efeito positivo do tamanho do conselho sobre a remuneração 
+[@Ozkan2007] quanto efeito negativo [@Patnaik2020].
+
+Assim como nos modelos do RNOA, a variável que representa a concentração acionária
+apresentou coeficientes negativos, apesar do efeito econômico ínfimo. A justificativa
+da utilização dessa variável se dá pela concepção teórica de que um acionista com
+grande participação no capital da empresa tenha maiores incentivos para exercer
+monitoramento e, consequentemente, reduzir a expropriação da riqueza da empresa
+[@Bertrand2001]. Entretanto, os resultados obtidos não apresentaram evidências 
+consistentes.
+
+Por fim, assim como nos modelos estimados com o RNOA, nos modelos que utilizaram
+o retorno acionário, houve evidências consistentes da influência positiva
+do tamanho das empresas sobre a remuneração dos executivos (pelos três métodos
+de estimação utilizados). Os modelos estimados por GMM também apresentaram coerência
+no entendimento de que a remuneração sofre efeito consistente da persistência; ou seja,
+a remuneração de períodos passados explica parte considerável do comportamento da remuneração
+presente.
 
 # Conclusão {#sec-conclusao}
 
-Escreva aqui as conclusões da sua dissertação.
+Pesquisas têm demonstrado o comportamento crescente da remuneração executiva
+em contextos de crises econômicas sistêmicas. Mais especificamente, nesse trabalho
+foram abordados estudos que analisaram o comportamento da remuneração e de seus 
+determinantes no contexto da pandemia de Covid-19. Mais do que entender apenas
+as tendências da remuneração, tais estudos buscam avaliar também se a remuneração
+é correspondente a um desempenho empresarial que a justifique.
 
+A revisão de literatura mostrou resultados controversos. @Alves2021 encontraram 
+evidências de que a remuneração executiva foi reduzida no período da pandemia,
+atribuindo esse fato à solidariedade e dos executivos e ao "compartilhamento da 
+dor" junto a acionistas e demais trabalhadores. @Bedford2023 apresentam resultados
+contrários, encontrando evidências de que cortes salariais anunciados foram substituídos
+por outras formas de remuneração. @Bivens2022 apontam ainda que a desigualdade 
+salarial entre executivos e demais trabalhadores atingiu seu pico em uma série 
+histórica com mais de 60 anos.
 
+Nesse contexto, o objetivo do presente trabalho é analisar o comportamento da 
+remuneração executiva no período da pandemia e verificar a influência que essa
+variável sofre do desempenho empresarial.Visando avanço na literatura,
+este trabalho propõe como diferenciação a desagregação do desempenho em três fatores:
+desempenho do mercado, desempenho setorial e desempenho idiossincrático (desempenho
+da firma isolado dos efeitos de mercado e setor). Além disso, foram utilizadas 
+variáveis de governança, a fim de verificar como esses fatores moderam a relação
+entre desempenho e remuneração. A perspectiva teórica e empírica é baseada no conceito
+de *pay for luck*, notoriamente analisado nos trabalhos de @Bertrand2001 e @Garvey2006.
+
+Além da desagregação entre diferentes fatores de desempenho, o trabalho também
+fez uso de diferentes métodos de estimação, mais especificamente os métodos
+dos Mínimos Quadrados Ordinários (MQO), Efeitos Fixos (EF) e Método dos
+Momentos Generalizados (*Generalized Method of Moments* - GMM - Sys). A utilização
+do GMM-Sys é o referencial, pela capacidade de lidar com eventuais problemas de 
+endogeneidade. A execução dos modelos em MQO e EF serve como *benchmarking* para
+os resultados, principalmente pautado no trabalho de @Wintoki2012, que evidencia
+como a utilização de métodos estáticos pode causar problemas de enviesamento
+de estimativas em relações endógenas.
+
+O estudo analisou a influência do retorno contábil (Retorno Sobre os Ativos
+Operacionais Líquidos) e retorno acionário em empresas listadas na B3 com todos
+os dados disponíveis, em um período de sete anos (2018 a 2024). Inicialmente,
+análises gráficas apontaram um crescimento contínuo da remuneração em todo o período 
+- com certa estabilidade entre os anos de 2021 e 2022. No período, tanto o desempenho
+contábil quanto acionário apresentaram comportamento instável.
+
+As análises dos modelos não encontraram evidências de *pay for luck*, ou seja, que
+executivos foram remunerados por fatores de desempenho externos durante o período.
+Na análise dos modelos que utilizaram o retorno acionário como variável de desempenho,
+não foram encontradas quaisquer relações entre retorno e remuneração. 
+
+Os resultados obtidos pelas análises que utilizaram o desempenho contábil foram
+mais notáveis. Na análise do retorno contábil, considerando que o RNOA de mercado
+e indústria positivos seriam a representação do *pay for luck*, foram encontrados
+resultados distintos. O RNOA de mercado não apresentou relação significativa com
+a remuneração. Já o RNOA de indústria, em um dos modelos apresentou um coeficiente
+negativo de -1,85 e significativo. Como conceitualizado por @Garvey2006, tal resultado
+é um indicativo de "má sorte", ou seja, os executivos foram "punidos" por um desempenho
+setorial desfavorável. Ainda no mesmo modelo, o efeito do desempenho sobre a tornou-se
+positivo durante a pandemia em um contexto de maior concentração acionária. Tal
+resultado, apesar de contraintuitivo, é semelhante ao encontrado por @Shang2020.
+
+No modelo M6, que utiliza o RNOA idiossincrático, foi encontrado um efeito positivo,
+que apesar da baixa significância, apresentou um efeito econômico relevante. A
+influência positiva do retorno idiossincrático sobre a remuneração é uma representação
+do que a literatura chama de *pay for performance*, ou seja, uma recompensa
+ao executivo por um desempenho individual superior em relação aos pares. Ao contrário
+do que se esperava encontrar, uma remuneração influenciada por fatores externos
+que configuraria *pay for luck*, as evidências significativas mostraram queda
+da remuneração associada ao desempenho da indústria e influência positiva
+do retorno contábil idiossincrático.
+
+As variáveis de governança - tamanho do conselho e percentual de ações ordinárias
+em posse do maior controlador - apresentaram uma tendência de influência 
+negativa sobre a remuneração, com duas ressalvas: tanto na variável do conselho
+quanto na do controlador, houve modelos com e sem signifiância e; a magnitude
+do efeito da concetração acionária apresentou-se bastante pequena, com coeficientes
+próximos de zero.
+
+Os resultados mais consistentes da pesquisa foram os efeitos do tamanho (aqui
+representado pelo Ativo Total) e da persistência da remuneração. Empresas maiores
+pagaram maiores salários a seus executivos; e a remuneração em *t-1* explicou 
+consistentemente a remuneração em *t*. Os resultados apresentaram magnitude e 
+significância em todos os modelos, destacando-se ainda a semelhança do comportamento
+da influência da variável Tamanho em todos os métodos utilizados. No caso da 
+persistência da remuneração não foi possível avaliar essa tendência, por terem
+sido utilizados dois métodos estáticos, em que a defasagem não é incluída.
+
+Por fim, destaca-se as diferenças encontradas em algumas variáveis devido à 
+utilização de diferentes métodos de estimação. Por exemplo, os resultados completamente
+divergentes da variável Desempenho entre as estimativas de EF e GMM dos modelos 
+M3 e M4, além das divergências
+de sinal e magnitude nas variáveis Covid e Conselho. Essas divergências são o 
+principal ponto de discussão metodológica do trabalho de @Wintoki2012, e demonstram 
+o potencial enviesamento de resultados em análises com métodos inadequados para
+lidar com relações potencialmente endógenas.
+
+O trabalho visa contribuir na literatura de governança, principalmente com o 
+a implementação de um conceito e método que visem desagregar as medidas de 
+desempenho, visto que, assim como explicitado no trabalho de @Bertrand2001, o
+desempenho empresarial por si só pode sofrer influências de fatores externos que
+acabem beneficiando os executivos em forma de remuneração, devido a condições
+que fujam ao controle dos mesmos.
+
+Cabe destacar algumas limitações e sugestões futuras para estudos nessa área. Como 
+limitações, aponta-se a baixa disponibilidade de variáveis de governança que 
+são utilizadas em trabalhos na literatura internacional. Além disso, a ocorrência
+de diversos dados faltantes ocasionou uma diminuição importante no tamanho das 
+amostas. Como perspectivas para estudos futuros, recomenda-se o estudo em outros
+períodos, a inclusão de outras variáveis de governança que estejam disponíveis,
+e a desagregação da remuneração entre partes fixas e variáveis, a fim de identificar
+como componentes de desempenho externos e internos afetam cada um dos tipos da
+remuneração.
 
 
 # Referências {#sec-referencias .unnumbered}

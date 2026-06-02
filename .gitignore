@@ -62,3 +62,4 @@ dados-limpos/**/*.rds
 codex.md
 
 **/*.quarto_ipynb
+.positai
